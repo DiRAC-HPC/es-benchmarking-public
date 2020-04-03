@@ -71,6 +71,8 @@ cd openssl-1.1.0l
 ./config --prefix=$prefix
 make all install
 
+```
+
 # Build Grid benchmark
 
 It is easiest to copy these commands to a script and then execute it:
