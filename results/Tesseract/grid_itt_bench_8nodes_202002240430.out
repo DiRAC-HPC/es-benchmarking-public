@@ -1,0 +1,2504 @@
+GOMP_CUP_AFFINITY:0 0-11
+GOMP_CUP_AFFINITY:1 12-23
+GOMP_CUP_AFFINITY:2 0-11
+GOMP_CUP_AFFINITY:3 12-23
+GOMP_CUP_AFFINITY:10 0-11
+GOMP_CUP_AFFINITY:11 12-23
+GOMP_CUP_AFFINITY:4 0-11
+GOMP_CUP_AFFINITY:5 12-23
+GOMP_CUP_AFFINITY:12 0-11
+GOMP_CUP_AFFINITY:13 12-23
+GOMP_CUP_AFFINITY:7 12-23
+GOMP_CUP_AFFINITY:6 0-11
+GOMP_CUP_AFFINITY:14 0-11
+GOMP_CUP_AFFINITY:15 12-23
+GOMP_CUP_AFFINITY:8 0-11
+GOMP_CUP_AFFINITY:9 12-23
+
+__|__|__|__|__|__|__|__|__|__|__|__|__|__|__
+__|__|__|__|__|__|__|__|__|__|__|__|__|__|__
+__|_ |  |  |  |  |  |  |  |  |  |  |  | _|__
+__|_                                    _|__
+__|_   GGGG    RRRR    III    DDDD      _|__
+__|_  G        R   R    I     D   D     _|__
+__|_  G        R   R    I     D    D    _|__
+__|_  G  GG    RRRR     I     D    D    _|__
+__|_  G   G    R  R     I     D   D     _|__
+__|_   GGGG    R   R   III    DDDD      _|__
+__|_                                    _|__
+__|__|__|__|__|__|__|__|__|__|__|__|__|__|__
+__|__|__|__|__|__|__|__|__|__|__|__|__|__|__
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  
+
+
+Copyright (C) 2015 Peter Boyle, Azusa Yamaguchi, Guido Cossu, Antonin Portelli and other authors
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+Grid     : Message    : 2179 ms : Requesting 1073741824 byte stencil comms buffers 
+Grid     : Message    : 2180 ms : ==================================================================================
+Grid     : Message    : 2180 ms : = Grid is setup to use 12 threads
+Grid     : Message    : 2180 ms : ==================================================================================
+Grid     : Message    : 2180 ms : Grid Default Decomposition patterns
+Grid     : Message    : 2180 ms : 	OpenMP threads : 12
+Grid     : Message    : 2180 ms : 	MPI tasks      : 2 2 2 2 
+Grid     : Message    : 2180 ms : 	vReal          : 256bits ; 1 2 2 2 
+Grid     : Message    : 2180 ms : 	vRealF         : 256bits ; 1 2 2 2 
+Grid     : Message    : 2180 ms : 	vRealD         : 256bits ; 1 1 2 2 
+Grid     : Message    : 2180 ms : 	vComplex       : 256bits ; 1 1 2 2 
+Grid     : Message    : 2180 ms : 	vComplexF      : 256bits ; 1 1 2 2 
+Grid     : Message    : 2180 ms : 	vComplexD      : 256bits ; 1 1 1 2 
+Grid     : Message    : 2180 ms : ==================================================================================
+Grid     : Message    : 2180 ms : ==================================================================================
+Grid     : Message    : 2180 ms :  Wilson dslash 4D vectorised
+Grid     : Message    : 2180 ms : ==================================================================================
+Grid     : Message    : 2180 ms : ==================================================================================
+Grid     : Message    : 2180 ms : Benchmark DWF on 8^4 local volume 
+Grid     : Message    : 2180 ms : * Global volume  : 16 16 16 16 
+Grid     : Message    : 2181 ms : * Ls             : 1
+Grid     : Message    : 2181 ms : * MPI ranks      : 2 2 2 2 
+Grid     : Message    : 2181 ms : * Intranode      : 1 1 1 1 
+Grid     : Message    : 2181 ms : * nodes          : 2 2 2 2 
+Grid     : Message    : 2181 ms : * Using 12 threads
+Grid     : Message    : 2181 ms : ==================================================================================
+Grid     : Message    : 2227 ms : Initialised RNGs
+Grid     : Message    : 2257 ms : DomainWallFermion with Ls=1
+Grid     : Message    : 2265 ms : ==================================================================================
+Grid     : Message    : 2265 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 2265 ms : * Using sequential comms compute
+Grid     : Message    : 2265 ms : * SINGLE precision 
+Grid     : Message    : 2265 ms : ==================================================================================
+Grid     : Message    : 2462 ms : Deo mflop/s =   281851.8 (866.6) 212754.6-326223.6
+Grid     : Message    : 2462 ms : Deo mflop/s per rank   17615.7
+Grid     : Message    : 2462 ms : Deo mflop/s per node   17615.7
+Grid     : Message    : 2462 ms : #### Dhop calls report 
+Grid     : Message    : 2462 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 2462 ms : WilsonFermion5D TotalTime   /Calls        : 156.2 us
+Grid     : Message    : 2462 ms : WilsonFermion5D CommTime    /Calls        : 140.9 us
+Grid     : Message    : 2462 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 2462 ms : WilsonFermion5D ComputeTime1/Calls        : 15.1 us
+Grid     : Message    : 2462 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 2462 ms : Average mflops/s per call                : 3039180.3
+Grid     : Message    : 2463 ms : Average mflops/s per call per rank       : 189948.8
+Grid     : Message    : 2463 ms : Average mflops/s per call per node       : 189948.8
+Grid     : Message    : 2463 ms : Average mflops/s per call (full)         : 282023.3
+Grid     : Message    : 2463 ms : Average mflops/s per call per rank (full): 17626.5
+Grid     : Message    : 2463 ms : Average mflops/s per call per node (full): 17626.5
+Grid     : Message    : 2463 ms : WilsonFermion5D Stencil
+Grid     : Message    : 2463 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 2463 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 2464 ms :  Stencil calls 1000.0
+Grid     : Message    : 2464 ms :  Stencil halogtime 39.4
+Grid     : Message    : 2464 ms :  Stencil gathertime 16.8
+Grid     : Message    : 2464 ms :  Stencil gathermtime 18.2
+Grid     : Message    : 2464 ms :  Stencil mergetime 21.0
+Grid     : Message    : 2464 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 2464 ms :  Stencil comms_bytes 196608.0
+Grid     : Message    : 2465 ms :  Stencil commtime 77.6
+Grid     : Message    : 2465 ms :  Stencil 2.5 GB/s per rank
+Grid     : Message    : 2465 ms :  Stencil 2.5 GB/s per node
+Grid     : Message    : 2465 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 2465 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 2465 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 2465 ms :  Stencil splicetime 20.7
+Grid     : Message    : 2465 ms :  Stencil nosplicetime 18.1
+Grid     : Message    : 2465 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 2465 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 2465 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 2466 ms :  timer0 (HaloGatherOpt) 41.6
+Grid     : Message    : 2466 ms :  timer1 (Communicate)   76.6
+Grid     : Message    : 2466 ms :  timer2 (CommsMerge )   22.1
+Grid     : Message    : 2466 ms :  timer3 (commsMergeShm) 0.2
+Grid     : Message    : 2466 ms : norm diff   0.0
+Grid     : Message    : 2467 ms : ==================================================================================
+Grid     : Message    : 2467 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 2467 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 2467 ms : * SINGLE precision 
+Grid     : Message    : 2467 ms : ==================================================================================
+Grid     : Message    : 2645 ms : Deo mflop/s =   300173.1 (753.3) 234256.3-333637.8
+Grid     : Message    : 2645 ms : Deo mflop/s per rank   18760.8
+Grid     : Message    : 2645 ms : Deo mflop/s per node   18760.8
+Grid     : Message    : 2645 ms : #### Dhop calls report 
+Grid     : Message    : 2645 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 2645 ms : WilsonFermion5D TotalTime   /Calls        : 146.6 us
+Grid     : Message    : 2645 ms : WilsonFermion5D CommTime    /Calls        : 69.9 us
+Grid     : Message    : 2645 ms : WilsonFermion5D FaceTime    /Calls        : 65.0 us
+Grid     : Message    : 2645 ms : WilsonFermion5D ComputeTime1/Calls        : 13.0 us
+Grid     : Message    : 2645 ms : WilsonFermion5D ComputeTime2/Calls        : 9.1 us
+Grid     : Message    : 2645 ms : Average mflops/s per call                : 3435188.7
+Grid     : Message    : 2645 ms : Average mflops/s per call per rank       : 214699.3
+Grid     : Message    : 2645 ms : Average mflops/s per call per node       : 214699.3
+Grid     : Message    : 2646 ms : Average mflops/s per call (full)         : 300367.6
+Grid     : Message    : 2646 ms : Average mflops/s per call per rank (full): 18773.0
+Grid     : Message    : 2646 ms : Average mflops/s per call per node (full): 18773.0
+Grid     : Message    : 2646 ms : WilsonFermion5D Stencil
+Grid     : Message    : 2646 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 2647 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 2647 ms :  Stencil calls 1000.0
+Grid     : Message    : 2647 ms :  Stencil halogtime 39.6
+Grid     : Message    : 2647 ms :  Stencil gathertime 17.1
+Grid     : Message    : 2647 ms :  Stencil gathermtime 18.2
+Grid     : Message    : 2647 ms :  Stencil mergetime 20.6
+Grid     : Message    : 2647 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 2647 ms :  Stencil comms_bytes 196608.0
+Grid     : Message    : 2648 ms :  Stencil commtime 73.8
+Grid     : Message    : 2648 ms :  Stencil 2.7 GB/s per rank
+Grid     : Message    : 2648 ms :  Stencil 2.7 GB/s per node
+Grid     : Message    : 2648 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 2648 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 2648 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 2648 ms :  Stencil splicetime 20.7
+Grid     : Message    : 2648 ms :  Stencil nosplicetime 18.3
+Grid     : Message    : 2648 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 2648 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 2648 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 2648 ms :  timer0 (HaloGatherOpt) 41.9
+Grid     : Message    : 2649 ms : norm diff   0.0
+Grid     : Message    : 2649 ms : ==================================================================================
+Grid     : Message    : 2649 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 2649 ms : * Using sequential comms compute
+Grid     : Message    : 2649 ms : * SINGLE precision 
+Grid     : Message    : 2649 ms : ==================================================================================
+Grid     : Message    : 2837 ms : Deo mflop/s =   282484.6 (844.8) 214830.2-319131.8
+Grid     : Message    : 2837 ms : Deo mflop/s per rank   17655.3
+Grid     : Message    : 2837 ms : Deo mflop/s per node   17655.3
+Grid     : Message    : 2837 ms : #### Dhop calls report 
+Grid     : Message    : 2837 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 2838 ms : WilsonFermion5D TotalTime   /Calls        : 155.8 us
+Grid     : Message    : 2838 ms : WilsonFermion5D CommTime    /Calls        : 140.0 us
+Grid     : Message    : 2838 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 2838 ms : WilsonFermion5D ComputeTime1/Calls        : 15.7 us
+Grid     : Message    : 2838 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 2838 ms : Average mflops/s per call                : 2861076.4
+Grid     : Message    : 2838 ms : Average mflops/s per call per rank       : 178817.3
+Grid     : Message    : 2838 ms : Average mflops/s per call per node       : 178817.3
+Grid     : Message    : 2838 ms : Average mflops/s per call (full)         : 282651.4
+Grid     : Message    : 2839 ms : Average mflops/s per call per rank (full): 17665.7
+Grid     : Message    : 2839 ms : Average mflops/s per call per node (full): 17665.7
+Grid     : Message    : 2839 ms : WilsonFermion5D Stencil
+Grid     : Message    : 2839 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 2839 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 2839 ms :  Stencil calls 1000.0
+Grid     : Message    : 2839 ms :  Stencil halogtime 39.5
+Grid     : Message    : 2840 ms :  Stencil gathertime 16.9
+Grid     : Message    : 2840 ms :  Stencil gathermtime 18.2
+Grid     : Message    : 2840 ms :  Stencil mergetime 21.0
+Grid     : Message    : 2840 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 2840 ms :  Stencil comms_bytes 196608.0
+Grid     : Message    : 2840 ms :  Stencil commtime 76.2
+Grid     : Message    : 2840 ms :  Stencil 2.6 GB/s per rank
+Grid     : Message    : 2840 ms :  Stencil 2.6 GB/s per node
+Grid     : Message    : 2840 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 2841 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 2841 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 2841 ms :  Stencil splicetime 20.8
+Grid     : Message    : 2841 ms :  Stencil nosplicetime 18.1
+Grid     : Message    : 2841 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 2841 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 2841 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 2841 ms :  timer0 (HaloGatherOpt) 41.6
+Grid     : Message    : 2841 ms :  timer1 (Communicate)   75.7
+Grid     : Message    : 2841 ms :  timer2 (CommsMerge )   22.1
+Grid     : Message    : 2841 ms :  timer3 (commsMergeShm) 0.2
+Grid     : Message    : 2842 ms : norm diff   0.0
+Grid     : Message    : 2842 ms : ==================================================================================
+Grid     : Message    : 2842 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 2842 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 2842 ms : * SINGLE precision 
+Grid     : Message    : 2842 ms : ==================================================================================
+Grid     : Message    : 3033 ms : Deo mflop/s =   292742.6 (834.1) 200182.7-333637.8
+Grid     : Message    : 3033 ms : Deo mflop/s per rank   18296.4
+Grid     : Message    : 3033 ms : Deo mflop/s per node   18296.4
+Grid     : Message    : 3033 ms : #### Dhop calls report 
+Grid     : Message    : 3033 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 3033 ms : WilsonFermion5D TotalTime   /Calls        : 150.3 us
+Grid     : Message    : 3033 ms : WilsonFermion5D CommTime    /Calls        : 71.9 us
+Grid     : Message    : 3033 ms : WilsonFermion5D FaceTime    /Calls        : 66.1 us
+Grid     : Message    : 3033 ms : WilsonFermion5D ComputeTime1/Calls        : 18.0 us
+Grid     : Message    : 3033 ms : WilsonFermion5D ComputeTime2/Calls        : 9.7 us
+Grid     : Message    : 3033 ms : Average mflops/s per call                : 2455210.9
+Grid     : Message    : 3033 ms : Average mflops/s per call per rank       : 153450.7
+Grid     : Message    : 3033 ms : Average mflops/s per call per node       : 153450.7
+Grid     : Message    : 3034 ms : Average mflops/s per call (full)         : 292919.8
+Grid     : Message    : 3034 ms : Average mflops/s per call per rank (full): 18307.5
+Grid     : Message    : 3034 ms : Average mflops/s per call per node (full): 18307.5
+Grid     : Message    : 3034 ms : WilsonFermion5D Stencil
+Grid     : Message    : 3034 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 3034 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 3035 ms :  Stencil calls 1000.0
+Grid     : Message    : 3035 ms :  Stencil halogtime 39.9
+Grid     : Message    : 3035 ms :  Stencil gathertime 17.2
+Grid     : Message    : 3035 ms :  Stencil gathermtime 18.3
+Grid     : Message    : 3035 ms :  Stencil mergetime 20.7
+Grid     : Message    : 3035 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 3035 ms :  Stencil comms_bytes 196608.0
+Grid     : Message    : 3036 ms :  Stencil commtime 76.8
+Grid     : Message    : 3036 ms :  Stencil 2.6 GB/s per rank
+Grid     : Message    : 3036 ms :  Stencil 2.6 GB/s per node
+Grid     : Message    : 3036 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 3036 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 3036 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 3036 ms :  Stencil splicetime 20.8
+Grid     : Message    : 3036 ms :  Stencil nosplicetime 18.5
+Grid     : Message    : 3036 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 3036 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 3036 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 3036 ms :  timer0 (HaloGatherOpt) 42.8
+Grid     : Message    : 3037 ms : norm diff   0.0
+Grid     : Message    : 3037 ms : ==================================================================================
+Grid     : Message    : 3037 ms : 8^4 x 1 Deo Best  mflop/s        =   300173.1 ; 18760.8 per node 
+Grid     : Message    : 3037 ms : 8^4 x 1 Deo Worst mflop/s        =   281851.8 ; 17615.7 per node 
+Grid     : Message    : 3037 ms : 8^4 x 1 Performance Robustness   =   0.939
+Grid     : Message    : 3038 ms : U/S ; U/O ; G/S ; G/O 
+Grid     : Message    : 3038 ms : 17615.739 ; 18760.817 ; 17655.286 ; 18296.411 ; 
+Grid     : Message    : 3038 ms : ==================================================================================
+Grid     : Message    : 3040 ms : ==================================================================================
+Grid     : Message    : 3040 ms : Benchmark DWF on 12^4 local volume 
+Grid     : Message    : 3040 ms : * Global volume  : 24 24 24 24 
+Grid     : Message    : 3040 ms : * Ls             : 1
+Grid     : Message    : 3040 ms : * MPI ranks      : 2 2 2 2 
+Grid     : Message    : 3040 ms : * Intranode      : 1 1 1 1 
+Grid     : Message    : 3041 ms : * nodes          : 2 2 2 2 
+Grid     : Message    : 3041 ms : * Using 12 threads
+Grid     : Message    : 3041 ms : ==================================================================================
+Grid     : Message    : 3263 ms : Initialised RNGs
+Grid     : Message    : 3352 ms : DomainWallFermion with Ls=1
+Grid     : Message    : 3370 ms : ==================================================================================
+Grid     : Message    : 3370 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 3370 ms : * Using sequential comms compute
+Grid     : Message    : 3370 ms : * SINGLE precision 
+Grid     : Message    : 3370 ms : ==================================================================================
+Grid     : Message    : 3735 ms : Deo mflop/s =   735739.9 (1035.6) 541149.2-799116.4
+Grid     : Message    : 3735 ms : Deo mflop/s per rank   45983.7
+Grid     : Message    : 3735 ms : Deo mflop/s per node   45983.7
+Grid     : Message    : 3735 ms : #### Dhop calls report 
+Grid     : Message    : 3735 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 3735 ms : WilsonFermion5D TotalTime   /Calls        : 302.9 us
+Grid     : Message    : 3735 ms : WilsonFermion5D CommTime    /Calls        : 243.8 us
+Grid     : Message    : 3735 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 3735 ms : WilsonFermion5D ComputeTime1/Calls        : 58.9 us
+Grid     : Message    : 3735 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 3735 ms : Average mflops/s per call                : 3817149.0
+Grid     : Message    : 3736 ms : Average mflops/s per call per rank       : 238571.8
+Grid     : Message    : 3736 ms : Average mflops/s per call per node       : 238571.8
+Grid     : Message    : 3736 ms : Average mflops/s per call (full)         : 736077.5
+Grid     : Message    : 3736 ms : Average mflops/s per call per rank (full): 46004.8
+Grid     : Message    : 3736 ms : Average mflops/s per call per node (full): 46004.8
+Grid     : Message    : 3736 ms : WilsonFermion5D Stencil
+Grid     : Message    : 3737 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 3737 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 3737 ms :  Stencil calls 1000.0
+Grid     : Message    : 3737 ms :  Stencil halogtime 43.1
+Grid     : Message    : 3737 ms :  Stencil gathertime 16.9
+Grid     : Message    : 3737 ms :  Stencil gathermtime 20.7
+Grid     : Message    : 3737 ms :  Stencil mergetime 25.2
+Grid     : Message    : 3738 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 3738 ms :  Stencil comms_bytes 663552.0
+Grid     : Message    : 3738 ms :  Stencil commtime 172.1
+Grid     : Message    : 3738 ms :  Stencil 3.9 GB/s per rank
+Grid     : Message    : 3738 ms :  Stencil 3.9 GB/s per node
+Grid     : Message    : 3738 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 3738 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 3738 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 3738 ms :  Stencil splicetime 23.7
+Grid     : Message    : 3739 ms :  Stencil nosplicetime 18.5
+Grid     : Message    : 3739 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 3739 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 3739 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 3739 ms :  timer0 (HaloGatherOpt) 43.8
+Grid     : Message    : 3739 ms :  timer1 (Communicate)   173.3
+Grid     : Message    : 3740 ms :  timer2 (CommsMerge )   26.0
+Grid     : Message    : 3740 ms :  timer3 (commsMergeShm) 0.2
+Grid     : Message    : 3742 ms : norm diff   0.0
+Grid     : Message    : 3743 ms : ==================================================================================
+Grid     : Message    : 3743 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 3743 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 3743 ms : * SINGLE precision 
+Grid     : Message    : 3743 ms : ==================================================================================
+Grid     : Message    : 4060 ms : Deo mflop/s =   845084.1 (1175.7) 677670.1-928972.8
+Grid     : Message    : 4060 ms : Deo mflop/s per rank   52817.8
+Grid     : Message    : 4060 ms : Deo mflop/s per node   52817.8
+Grid     : Message    : 4060 ms : #### Dhop calls report 
+Grid     : Message    : 4060 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 4060 ms : WilsonFermion5D TotalTime   /Calls        : 263.7 us
+Grid     : Message    : 4060 ms : WilsonFermion5D CommTime    /Calls        : 165.3 us
+Grid     : Message    : 4060 ms : WilsonFermion5D FaceTime    /Calls        : 70.6 us
+Grid     : Message    : 4060 ms : WilsonFermion5D ComputeTime1/Calls        : 67.0 us
+Grid     : Message    : 4060 ms : WilsonFermion5D ComputeTime2/Calls        : 25.0 us
+Grid     : Message    : 4060 ms : Average mflops/s per call                : 3325910.8
+Grid     : Message    : 4061 ms : Average mflops/s per call per rank       : 207869.4
+Grid     : Message    : 4061 ms : Average mflops/s per call per node       : 207869.4
+Grid     : Message    : 4061 ms : Average mflops/s per call (full)         : 845513.6
+Grid     : Message    : 4061 ms : Average mflops/s per call per rank (full): 52844.6
+Grid     : Message    : 4061 ms : Average mflops/s per call per node (full): 52844.6
+Grid     : Message    : 4062 ms : WilsonFermion5D Stencil
+Grid     : Message    : 4062 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 4062 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 4062 ms :  Stencil calls 1000.0
+Grid     : Message    : 4062 ms :  Stencil halogtime 42.8
+Grid     : Message    : 4062 ms :  Stencil gathertime 16.8
+Grid     : Message    : 4062 ms :  Stencil gathermtime 20.9
+Grid     : Message    : 4062 ms :  Stencil mergetime 24.9
+Grid     : Message    : 4062 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 4063 ms :  Stencil comms_bytes 663552.0
+Grid     : Message    : 4063 ms :  Stencil commtime 167.4
+Grid     : Message    : 4063 ms :  Stencil 4.0 GB/s per rank
+Grid     : Message    : 4063 ms :  Stencil 4.0 GB/s per node
+Grid     : Message    : 4063 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 4063 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 4063 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 4063 ms :  Stencil splicetime 23.7
+Grid     : Message    : 4063 ms :  Stencil nosplicetime 18.4
+Grid     : Message    : 4063 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 4063 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 4063 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 4063 ms :  timer0 (HaloGatherOpt) 44.0
+Grid     : Message    : 4066 ms : norm diff   0.0
+Grid     : Message    : 4066 ms : ==================================================================================
+Grid     : Message    : 4066 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 4066 ms : * Using sequential comms compute
+Grid     : Message    : 4066 ms : * SINGLE precision 
+Grid     : Message    : 4066 ms : ==================================================================================
+Grid     : Message    : 4437 ms : Deo mflop/s =   721903.7 (899.8) 621040.3-787821.5
+Grid     : Message    : 4437 ms : Deo mflop/s per rank   45119.0
+Grid     : Message    : 4437 ms : Deo mflop/s per node   45119.0
+Grid     : Message    : 4437 ms : #### Dhop calls report 
+Grid     : Message    : 4437 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 4437 ms : WilsonFermion5D TotalTime   /Calls        : 308.7 us
+Grid     : Message    : 4437 ms : WilsonFermion5D CommTime    /Calls        : 241.7 us
+Grid     : Message    : 4437 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 4437 ms : WilsonFermion5D ComputeTime1/Calls        : 66.8 us
+Grid     : Message    : 4437 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 4438 ms : Average mflops/s per call                : 3359130.5
+Grid     : Message    : 4438 ms : Average mflops/s per call per rank       : 209945.7
+Grid     : Message    : 4438 ms : Average mflops/s per call per node       : 209945.7
+Grid     : Message    : 4438 ms : Average mflops/s per call (full)         : 722200.7
+Grid     : Message    : 4438 ms : Average mflops/s per call per rank (full): 45137.5
+Grid     : Message    : 4438 ms : Average mflops/s per call per node (full): 45137.5
+Grid     : Message    : 4439 ms : WilsonFermion5D Stencil
+Grid     : Message    : 4439 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 4439 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 4439 ms :  Stencil calls 1000.0
+Grid     : Message    : 4439 ms :  Stencil halogtime 43.0
+Grid     : Message    : 4439 ms :  Stencil gathertime 16.8
+Grid     : Message    : 4439 ms :  Stencil gathermtime 20.6
+Grid     : Message    : 4439 ms :  Stencil mergetime 25.1
+Grid     : Message    : 4440 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 4440 ms :  Stencil comms_bytes 663552.0
+Grid     : Message    : 4440 ms :  Stencil commtime 170.0
+Grid     : Message    : 4440 ms :  Stencil 3.9 GB/s per rank
+Grid     : Message    : 4440 ms :  Stencil 3.9 GB/s per node
+Grid     : Message    : 4440 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 4440 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 4441 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 4441 ms :  Stencil splicetime 23.6
+Grid     : Message    : 4441 ms :  Stencil nosplicetime 18.5
+Grid     : Message    : 4441 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 4441 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 4441 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 4441 ms :  timer0 (HaloGatherOpt) 43.7
+Grid     : Message    : 4441 ms :  timer1 (Communicate)   171.3
+Grid     : Message    : 4441 ms :  timer2 (CommsMerge )   26.2
+Grid     : Message    : 4441 ms :  timer3 (commsMergeShm) 0.2
+Grid     : Message    : 4443 ms : norm diff   0.0
+Grid     : Message    : 4443 ms : ==================================================================================
+Grid     : Message    : 4443 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 4443 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 4443 ms : * SINGLE precision 
+Grid     : Message    : 4443 ms : ==================================================================================
+Grid     : Message    : 4763 ms : Deo mflop/s =   838975.2 (1151.6) 712311.4-913743.7
+Grid     : Message    : 4763 ms : Deo mflop/s per rank   52436.0
+Grid     : Message    : 4763 ms : Deo mflop/s per node   52436.0
+Grid     : Message    : 4763 ms : #### Dhop calls report 
+Grid     : Message    : 4763 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 4763 ms : WilsonFermion5D TotalTime   /Calls        : 265.6 us
+Grid     : Message    : 4763 ms : WilsonFermion5D CommTime    /Calls        : 165.2 us
+Grid     : Message    : 4763 ms : WilsonFermion5D FaceTime    /Calls        : 71.0 us
+Grid     : Message    : 4763 ms : WilsonFermion5D ComputeTime1/Calls        : 99.5 us
+Grid     : Message    : 4763 ms : WilsonFermion5D ComputeTime2/Calls        : 26.7 us
+Grid     : Message    : 4763 ms : Average mflops/s per call                : 2222442.4
+Grid     : Message    : 4763 ms : Average mflops/s per call per rank       : 138902.6
+Grid     : Message    : 4763 ms : Average mflops/s per call per node       : 138902.6
+Grid     : Message    : 4764 ms : Average mflops/s per call (full)         : 839300.5
+Grid     : Message    : 4764 ms : Average mflops/s per call per rank (full): 52456.3
+Grid     : Message    : 4764 ms : Average mflops/s per call per node (full): 52456.3
+Grid     : Message    : 4764 ms : WilsonFermion5D Stencil
+Grid     : Message    : 4764 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 4764 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 4765 ms :  Stencil calls 1000.0
+Grid     : Message    : 4765 ms :  Stencil halogtime 42.9
+Grid     : Message    : 4765 ms :  Stencil gathertime 16.9
+Grid     : Message    : 4765 ms :  Stencil gathermtime 20.8
+Grid     : Message    : 4765 ms :  Stencil mergetime 25.1
+Grid     : Message    : 4765 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 4765 ms :  Stencil comms_bytes 663552.0
+Grid     : Message    : 4765 ms :  Stencil commtime 167.1
+Grid     : Message    : 4765 ms :  Stencil 4.0 GB/s per rank
+Grid     : Message    : 4765 ms :  Stencil 4.0 GB/s per node
+Grid     : Message    : 4766 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 4766 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 4766 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 4766 ms :  Stencil splicetime 23.6
+Grid     : Message    : 4766 ms :  Stencil nosplicetime 18.5
+Grid     : Message    : 4766 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 4766 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 4766 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 4766 ms :  timer0 (HaloGatherOpt) 44.1
+Grid     : Message    : 4769 ms : norm diff   0.0
+Grid     : Message    : 4769 ms : ==================================================================================
+Grid     : Message    : 4769 ms : 12^4 x 1 Deo Best  mflop/s        =   845084.1 ; 52817.8 per node 
+Grid     : Message    : 4769 ms : 12^4 x 1 Deo Worst mflop/s        =   721903.7 ; 45119.0 per node 
+Grid     : Message    : 4769 ms : 12^4 x 1 Performance Robustness   =   0.854
+Grid     : Message    : 4769 ms : U/S ; U/O ; G/S ; G/O 
+Grid     : Message    : 4769 ms : 45983.744 ; 52817.757 ; 45118.984 ; 52435.952 ; 
+Grid     : Message    : 4769 ms : ==================================================================================
+Grid     : Message    : 4774 ms : ==================================================================================
+Grid     : Message    : 4774 ms : Benchmark DWF on 16^4 local volume 
+Grid     : Message    : 4774 ms : * Global volume  : 32 32 32 32 
+Grid     : Message    : 4774 ms : * Ls             : 1
+Grid     : Message    : 4774 ms : * MPI ranks      : 2 2 2 2 
+Grid     : Message    : 4774 ms : * Intranode      : 1 1 1 1 
+Grid     : Message    : 4775 ms : * nodes          : 2 2 2 2 
+Grid     : Message    : 4775 ms : * Using 12 threads
+Grid     : Message    : 4775 ms : ==================================================================================
+Grid     : Message    : 5470 ms : Initialised RNGs
+Grid     : Message    : 5722 ms : DomainWallFermion with Ls=1
+Grid     : Message    : 5770 ms : ==================================================================================
+Grid     : Message    : 5770 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 5770 ms : * Using sequential comms compute
+Grid     : Message    : 5770 ms : * SINGLE precision 
+Grid     : Message    : 5770 ms : ==================================================================================
+Grid     : Message    : 6590 ms : Deo mflop/s =   1032863.3 (788.9) 921102.1-1090778.7
+Grid     : Message    : 6590 ms : Deo mflop/s per rank   64554.0
+Grid     : Message    : 6590 ms : Deo mflop/s per node   64554.0
+Grid     : Message    : 6590 ms : #### Dhop calls report 
+Grid     : Message    : 6590 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 6590 ms : WilsonFermion5D TotalTime   /Calls        : 681.9 us
+Grid     : Message    : 6590 ms : WilsonFermion5D CommTime    /Calls        : 415.9 us
+Grid     : Message    : 6590 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 6590 ms : WilsonFermion5D ComputeTime1/Calls        : 265.7 us
+Grid     : Message    : 6590 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 6590 ms : Average mflops/s per call                : 2686420.5
+Grid     : Message    : 6591 ms : Average mflops/s per call per rank       : 167901.3
+Grid     : Message    : 6591 ms : Average mflops/s per call per node       : 167901.3
+Grid     : Message    : 6591 ms : Average mflops/s per call (full)         : 1033360.1
+Grid     : Message    : 6591 ms : Average mflops/s per call per rank (full): 64585.0
+Grid     : Message    : 6591 ms : Average mflops/s per call per node (full): 64585.0
+Grid     : Message    : 6591 ms : WilsonFermion5D Stencil
+Grid     : Message    : 6592 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 6592 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 6592 ms :  Stencil calls 1000.0
+Grid     : Message    : 6592 ms :  Stencil halogtime 69.1
+Grid     : Message    : 6592 ms :  Stencil gathertime 24.2
+Grid     : Message    : 6592 ms :  Stencil gathermtime 34.5
+Grid     : Message    : 6592 ms :  Stencil mergetime 28.4
+Grid     : Message    : 6592 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 6593 ms :  Stencil comms_bytes 1572864.0
+Grid     : Message    : 6593 ms :  Stencil commtime 317.1
+Grid     : Message    : 6593 ms :  Stencil 5.0 GB/s per rank
+Grid     : Message    : 6593 ms :  Stencil 5.0 GB/s per node
+Grid     : Message    : 6593 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 6593 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 6593 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 6593 ms :  Stencil splicetime 39.7
+Grid     : Message    : 6593 ms :  Stencil nosplicetime 27.5
+Grid     : Message    : 6593 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 6593 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 6593 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 6593 ms :  timer0 (HaloGatherOpt) 68.7
+Grid     : Message    : 6593 ms :  timer1 (Communicate)   316.7
+Grid     : Message    : 6593 ms :  timer2 (CommsMerge )   29.5
+Grid     : Message    : 6593 ms :  timer3 (commsMergeShm) 0.3
+Grid     : Message    : 6601 ms : norm diff   0.0
+Grid     : Message    : 6601 ms : ==================================================================================
+Grid     : Message    : 6601 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 6601 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 6601 ms : * SINGLE precision 
+Grid     : Message    : 6601 ms : ==================================================================================
+Grid     : Message    : 7197 ms : Deo mflop/s =   1419703.9 (2574.7) 570099.6-1528509.9
+Grid     : Message    : 7197 ms : Deo mflop/s per rank   88731.5
+Grid     : Message    : 7197 ms : Deo mflop/s per node   88731.5
+Grid     : Message    : 7197 ms : #### Dhop calls report 
+Grid     : Message    : 7197 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 7197 ms : WilsonFermion5D TotalTime   /Calls        : 496.2 us
+Grid     : Message    : 7197 ms : WilsonFermion5D CommTime    /Calls        : 319.5 us
+Grid     : Message    : 7197 ms : WilsonFermion5D FaceTime    /Calls        : 98.6 us
+Grid     : Message    : 7197 ms : WilsonFermion5D ComputeTime1/Calls        : 288.5 us
+Grid     : Message    : 7197 ms : WilsonFermion5D ComputeTime2/Calls        : 75.1 us
+Grid     : Message    : 7197 ms : Average mflops/s per call                : 2386775.9
+Grid     : Message    : 7197 ms : Average mflops/s per call per rank       : 149173.5
+Grid     : Message    : 7198 ms : Average mflops/s per call per node       : 149173.5
+Grid     : Message    : 7198 ms : Average mflops/s per call (full)         : 1420161.7
+Grid     : Message    : 7198 ms : Average mflops/s per call per rank (full): 88760.1
+Grid     : Message    : 7198 ms : Average mflops/s per call per node (full): 88760.1
+Grid     : Message    : 7198 ms : WilsonFermion5D Stencil
+Grid     : Message    : 7198 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 7199 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 7199 ms :  Stencil calls 1000.0
+Grid     : Message    : 7199 ms :  Stencil halogtime 64.2
+Grid     : Message    : 7199 ms :  Stencil gathertime 24.1
+Grid     : Message    : 7199 ms :  Stencil gathermtime 33.4
+Grid     : Message    : 7199 ms :  Stencil mergetime 32.3
+Grid     : Message    : 7199 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 7199 ms :  Stencil comms_bytes 1572864.0
+Grid     : Message    : 7200 ms :  Stencil commtime 321.2
+Grid     : Message    : 7200 ms :  Stencil 4.9 GB/s per rank
+Grid     : Message    : 7200 ms :  Stencil 4.9 GB/s per node
+Grid     : Message    : 7200 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 7200 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 7200 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 7200 ms :  Stencil splicetime 36.7
+Grid     : Message    : 7200 ms :  Stencil nosplicetime 26.3
+Grid     : Message    : 7200 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 7200 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 7200 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 7200 ms :  timer0 (HaloGatherOpt) 64.4
+Grid     : Message    : 7207 ms : norm diff   0.0
+Grid     : Message    : 7207 ms : ==================================================================================
+Grid     : Message    : 7207 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 7207 ms : * Using sequential comms compute
+Grid     : Message    : 7207 ms : * SINGLE precision 
+Grid     : Message    : 7207 ms : ==================================================================================
+Grid     : Message    : 8113 ms : Deo mflop/s =   934061.7 (629.1) 775184.9-988279.2
+Grid     : Message    : 8113 ms : Deo mflop/s per rank   58378.9
+Grid     : Message    : 8113 ms : Deo mflop/s per node   58378.9
+Grid     : Message    : 8113 ms : #### Dhop calls report 
+Grid     : Message    : 8113 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 8113 ms : WilsonFermion5D TotalTime   /Calls        : 754.1 us
+Grid     : Message    : 8113 ms : WilsonFermion5D CommTime    /Calls        : 418.4 us
+Grid     : Message    : 8113 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 8113 ms : WilsonFermion5D ComputeTime1/Calls        : 335.4 us
+Grid     : Message    : 8113 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 8113 ms : Average mflops/s per call                : 2146702.2
+Grid     : Message    : 8113 ms : Average mflops/s per call per rank       : 134168.9
+Grid     : Message    : 8114 ms : Average mflops/s per call per node       : 134168.9
+Grid     : Message    : 8114 ms : Average mflops/s per call (full)         : 934404.8
+Grid     : Message    : 8114 ms : Average mflops/s per call per rank (full): 58400.3
+Grid     : Message    : 8114 ms : Average mflops/s per call per node (full): 58400.3
+Grid     : Message    : 8114 ms : WilsonFermion5D Stencil
+Grid     : Message    : 8115 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 8115 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 8115 ms :  Stencil calls 1000.0
+Grid     : Message    : 8115 ms :  Stencil halogtime 68.7
+Grid     : Message    : 8115 ms :  Stencil gathertime 24.1
+Grid     : Message    : 8115 ms :  Stencil gathermtime 34.2
+Grid     : Message    : 8115 ms :  Stencil mergetime 28.5
+Grid     : Message    : 8116 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 8116 ms :  Stencil comms_bytes 1572864.0
+Grid     : Message    : 8116 ms :  Stencil commtime 323.7
+Grid     : Message    : 8116 ms :  Stencil 4.9 GB/s per rank
+Grid     : Message    : 8116 ms :  Stencil 4.9 GB/s per node
+Grid     : Message    : 8116 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 8116 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 8116 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 8117 ms :  Stencil splicetime 39.4
+Grid     : Message    : 8117 ms :  Stencil nosplicetime 27.3
+Grid     : Message    : 8117 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 8117 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 8117 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 8117 ms :  timer0 (HaloGatherOpt) 68.1
+Grid     : Message    : 8117 ms :  timer1 (Communicate)   319.6
+Grid     : Message    : 8117 ms :  timer2 (CommsMerge )   29.7
+Grid     : Message    : 8117 ms :  timer3 (commsMergeShm) 0.3
+Grid     : Message    : 8124 ms : norm diff   0.0
+Grid     : Message    : 8124 ms : ==================================================================================
+Grid     : Message    : 8124 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 8124 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 8124 ms : * SINGLE precision 
+Grid     : Message    : 8124 ms : ==================================================================================
+Grid     : Message    : 8950 ms : Deo mflop/s =   1025530.6 (587.5) 948375.6-1085736.6
+Grid     : Message    : 8950 ms : Deo mflop/s per rank   64095.7
+Grid     : Message    : 8950 ms : Deo mflop/s per node   64095.7
+Grid     : Message    : 8950 ms : #### Dhop calls report 
+Grid     : Message    : 8950 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 8950 ms : WilsonFermion5D TotalTime   /Calls        : 686.9 us
+Grid     : Message    : 8950 ms : WilsonFermion5D CommTime    /Calls        : 496.2 us
+Grid     : Message    : 8950 ms : WilsonFermion5D FaceTime    /Calls        : 104.1 us
+Grid     : Message    : 8950 ms : WilsonFermion5D ComputeTime1/Calls        : 474.3 us
+Grid     : Message    : 8950 ms : WilsonFermion5D ComputeTime2/Calls        : 82.6 us
+Grid     : Message    : 8950 ms : Average mflops/s per call                : 1510557.3
+Grid     : Message    : 8951 ms : Average mflops/s per call per rank       : 94409.8
+Grid     : Message    : 8951 ms : Average mflops/s per call per node       : 94409.8
+Grid     : Message    : 8951 ms : Average mflops/s per call (full)         : 1025826.2
+Grid     : Message    : 8951 ms : Average mflops/s per call per rank (full): 64114.1
+Grid     : Message    : 8951 ms : Average mflops/s per call per node (full): 64114.1
+Grid     : Message    : 8952 ms : WilsonFermion5D Stencil
+Grid     : Message    : 8952 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 8952 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 8952 ms :  Stencil calls 1000.0
+Grid     : Message    : 8952 ms :  Stencil halogtime 64.7
+Grid     : Message    : 8952 ms :  Stencil gathertime 24.0
+Grid     : Message    : 8952 ms :  Stencil gathermtime 33.6
+Grid     : Message    : 8952 ms :  Stencil mergetime 32.7
+Grid     : Message    : 8952 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 8953 ms :  Stencil comms_bytes 1572864.0
+Grid     : Message    : 8953 ms :  Stencil commtime 490.9
+Grid     : Message    : 8953 ms :  Stencil 3.2 GB/s per rank
+Grid     : Message    : 8953 ms :  Stencil 3.2 GB/s per node
+Grid     : Message    : 8953 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 8953 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 8953 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 8953 ms :  Stencil splicetime 37.2
+Grid     : Message    : 8953 ms :  Stencil nosplicetime 26.3
+Grid     : Message    : 8953 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 8953 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 8953 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 8953 ms :  timer0 (HaloGatherOpt) 69.7
+Grid     : Message    : 8961 ms : norm diff   0.0
+Grid     : Message    : 8961 ms : ==================================================================================
+Grid     : Message    : 8961 ms : 16^4 x 1 Deo Best  mflop/s        =   1419703.9 ; 88731.5 per node 
+Grid     : Message    : 8961 ms : 16^4 x 1 Deo Worst mflop/s        =   934061.7 ; 58378.9 per node 
+Grid     : Message    : 8961 ms : 16^4 x 1 Performance Robustness   =   0.658
+Grid     : Message    : 8962 ms : U/S ; U/O ; G/S ; G/O 
+Grid     : Message    : 8962 ms : 64553.954 ; 88731.496 ; 58378.856 ; 64095.660 ; 
+Grid     : Message    : 8962 ms : ==================================================================================
+Grid     : Message    : 8975 ms : ==================================================================================
+Grid     : Message    : 8975 ms : Benchmark DWF on 24^4 local volume 
+Grid     : Message    : 8975 ms : * Global volume  : 48 48 48 48 
+Grid     : Message    : 8975 ms : * Ls             : 1
+Grid     : Message    : 8976 ms : * MPI ranks      : 2 2 2 2 
+Grid     : Message    : 8976 ms : * Intranode      : 1 1 1 1 
+Grid     : Message    : 8976 ms : * nodes          : 2 2 2 2 
+Grid     : Message    : 8976 ms : * Using 12 threads
+Grid     : Message    : 8976 ms : ==================================================================================
+Grid     : Message    : 12478 ms : Initialised RNGs
+Grid     : Message    : 13758 ms : DomainWallFermion with Ls=1
+Grid     : Message    : 13979 ms : ==================================================================================
+Grid     : Message    : 13979 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 13979 ms : * Using sequential comms compute
+Grid     : Message    : 13979 ms : * SINGLE precision 
+Grid     : Message    : 13979 ms : ==================================================================================
+Grid     : Message    : 17679 ms : Deo mflop/s =   1157200.5 (295.6) 1070604.9-1186711.8
+Grid     : Message    : 17679 ms : Deo mflop/s per rank   72325.0
+Grid     : Message    : 17679 ms : Deo mflop/s per node   72325.0
+Grid     : Message    : 17679 ms : #### Dhop calls report 
+Grid     : Message    : 17679 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 17680 ms : WilsonFermion5D TotalTime   /Calls        : 3082.3 us
+Grid     : Message    : 17680 ms : WilsonFermion5D CommTime    /Calls        : 1092.2 us
+Grid     : Message    : 17680 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 17680 ms : WilsonFermion5D ComputeTime1/Calls        : 1989.3 us
+Grid     : Message    : 17680 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 17680 ms : Average mflops/s per call                : 1793179.8
+Grid     : Message    : 17680 ms : Average mflops/s per call per rank       : 112073.7
+Grid     : Message    : 17680 ms : Average mflops/s per call per node       : 112073.7
+Grid     : Message    : 17680 ms : Average mflops/s per call (full)         : 1157333.0
+Grid     : Message    : 17680 ms : Average mflops/s per call per rank (full): 72333.3
+Grid     : Message    : 17681 ms : Average mflops/s per call per node (full): 72333.3
+Grid     : Message    : 17681 ms : WilsonFermion5D Stencil
+Grid     : Message    : 17681 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 17681 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 17681 ms :  Stencil calls 1000.0
+Grid     : Message    : 17681 ms :  Stencil halogtime 171.8
+Grid     : Message    : 17682 ms :  Stencil gathertime 61.3
+Grid     : Message    : 17682 ms :  Stencil gathermtime 95.4
+Grid     : Message    : 17682 ms :  Stencil mergetime 71.3
+Grid     : Message    : 17682 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 17682 ms :  Stencil comms_bytes 5308416.0
+Grid     : Message    : 17682 ms :  Stencil commtime 842.3
+Grid     : Message    : 17682 ms :  Stencil 6.3 GB/s per rank
+Grid     : Message    : 17683 ms :  Stencil 6.3 GB/s per node
+Grid     : Message    : 17683 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 17683 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 17683 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 17683 ms :  Stencil splicetime 102.5
+Grid     : Message    : 17683 ms :  Stencil nosplicetime 66.6
+Grid     : Message    : 17683 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 17683 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 17683 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 17683 ms :  timer0 (HaloGatherOpt) 171.8
+Grid     : Message    : 17683 ms :  timer1 (Communicate)   844.9
+Grid     : Message    : 17683 ms :  timer2 (CommsMerge )   73.8
+Grid     : Message    : 17683 ms :  timer3 (commsMergeShm) 0.4
+Grid     : Message    : 17718 ms : norm diff   0.0
+Grid     : Message    : 17719 ms : ==================================================================================
+Grid     : Message    : 17719 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 17719 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 17719 ms : * SINGLE precision 
+Grid     : Message    : 17719 ms : ==================================================================================
+Grid     : Message    : 20938 ms : Deo mflop/s =   1330675.7 (1208.1) 764685.0-1406646.5
+Grid     : Message    : 20938 ms : Deo mflop/s per rank   83167.2
+Grid     : Message    : 20938 ms : Deo mflop/s per node   83167.2
+Grid     : Message    : 20938 ms : #### Dhop calls report 
+Grid     : Message    : 20938 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 20938 ms : WilsonFermion5D TotalTime   /Calls        : 2680.3 us
+Grid     : Message    : 20938 ms : WilsonFermion5D CommTime    /Calls        : 1981.4 us
+Grid     : Message    : 20938 ms : WilsonFermion5D FaceTime    /Calls        : 275.4 us
+Grid     : Message    : 20938 ms : WilsonFermion5D ComputeTime1/Calls        : 1830.2 us
+Grid     : Message    : 20938 ms : WilsonFermion5D ComputeTime2/Calls        : 415.2 us
+Grid     : Message    : 20938 ms : Average mflops/s per call                : 1893798.7
+Grid     : Message    : 20938 ms : Average mflops/s per call per rank       : 118362.4
+Grid     : Message    : 20938 ms : Average mflops/s per call per node       : 118362.4
+Grid     : Message    : 20938 ms : Average mflops/s per call (full)         : 1330937.9
+Grid     : Message    : 20939 ms : Average mflops/s per call per rank (full): 83183.6
+Grid     : Message    : 20939 ms : Average mflops/s per call per node (full): 83183.6
+Grid     : Message    : 20939 ms : WilsonFermion5D Stencil
+Grid     : Message    : 20939 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 20939 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 20939 ms :  Stencil calls 1000.0
+Grid     : Message    : 20939 ms :  Stencil halogtime 193.4
+Grid     : Message    : 20940 ms :  Stencil gathertime 65.7
+Grid     : Message    : 20940 ms :  Stencil gathermtime 113.8
+Grid     : Message    : 20940 ms :  Stencil mergetime 81.3
+Grid     : Message    : 20940 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 20940 ms :  Stencil comms_bytes 5308416.0
+Grid     : Message    : 20940 ms :  Stencil commtime 1892.7
+Grid     : Message    : 20940 ms :  Stencil 2.8 GB/s per rank
+Grid     : Message    : 20941 ms :  Stencil 2.8 GB/s per node
+Grid     : Message    : 20941 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 20941 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 20941 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 20941 ms :  Stencil splicetime 120.4
+Grid     : Message    : 20941 ms :  Stencil nosplicetime 70.5
+Grid     : Message    : 20941 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 20941 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 20941 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 20941 ms :  timer0 (HaloGatherOpt) 191.7
+Grid     : Message    : 20975 ms : norm diff   0.0
+Grid     : Message    : 20976 ms : ==================================================================================
+Grid     : Message    : 20976 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 20976 ms : * Using sequential comms compute
+Grid     : Message    : 20976 ms : * SINGLE precision 
+Grid     : Message    : 20976 ms : ==================================================================================
+Grid     : Message    : 24865 ms : Deo mflop/s =   1097021.0 (1888.8) 519629.4-1143717.7
+Grid     : Message    : 24865 ms : Deo mflop/s per rank   68563.8
+Grid     : Message    : 24865 ms : Deo mflop/s per node   68563.8
+Grid     : Message    : 24865 ms : #### Dhop calls report 
+Grid     : Message    : 24865 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 24865 ms : WilsonFermion5D TotalTime   /Calls        : 3251.3 us
+Grid     : Message    : 24865 ms : WilsonFermion5D CommTime    /Calls        : 1141.4 us
+Grid     : Message    : 24865 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 24865 ms : WilsonFermion5D ComputeTime1/Calls        : 2109.1 us
+Grid     : Message    : 24865 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 24865 ms : Average mflops/s per call                : 1686658.3
+Grid     : Message    : 24865 ms : Average mflops/s per call per rank       : 105416.1
+Grid     : Message    : 24866 ms : Average mflops/s per call per node       : 105416.1
+Grid     : Message    : 24866 ms : Average mflops/s per call (full)         : 1097181.3
+Grid     : Message    : 24866 ms : Average mflops/s per call per rank (full): 68573.8
+Grid     : Message    : 24866 ms : Average mflops/s per call per node (full): 68573.8
+Grid     : Message    : 24866 ms : WilsonFermion5D Stencil
+Grid     : Message    : 24867 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 24867 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 24867 ms :  Stencil calls 1000.0
+Grid     : Message    : 24867 ms :  Stencil halogtime 166.7
+Grid     : Message    : 24867 ms :  Stencil gathertime 59.7
+Grid     : Message    : 24867 ms :  Stencil gathermtime 91.9
+Grid     : Message    : 24867 ms :  Stencil mergetime 71.0
+Grid     : Message    : 24867 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 24868 ms :  Stencil comms_bytes 5308416.0
+Grid     : Message    : 24868 ms :  Stencil commtime 891.1
+Grid     : Message    : 24868 ms :  Stencil 6.0 GB/s per rank
+Grid     : Message    : 24868 ms :  Stencil 6.0 GB/s per node
+Grid     : Message    : 24868 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 24868 ms :  Stencil mpi3synctime_g 0.2
+Grid     : Message    : 24868 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 24869 ms :  Stencil splicetime 99.0
+Grid     : Message    : 24869 ms :  Stencil nosplicetime 65.1
+Grid     : Message    : 24869 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 24869 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 24869 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 24869 ms :  timer0 (HaloGatherOpt) 166.2
+Grid     : Message    : 24869 ms :  timer1 (Communicate)   900.2
+Grid     : Message    : 24869 ms :  timer2 (CommsMerge )   73.5
+Grid     : Message    : 24869 ms :  timer3 (commsMergeShm) 0.3
+Grid     : Message    : 24903 ms : norm diff   0.0
+Grid     : Message    : 24905 ms : ==================================================================================
+Grid     : Message    : 24905 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 24905 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 24905 ms : * SINGLE precision 
+Grid     : Message    : 24905 ms : ==================================================================================
+Grid     : Message    : 29019 ms : Deo mflop/s =   1040784.5 (863.1) 741941.7-1073504.5
+Grid     : Message    : 29019 ms : Deo mflop/s per rank   65049.0
+Grid     : Message    : 29019 ms : Deo mflop/s per node   65049.0
+Grid     : Message    : 29019 ms : #### Dhop calls report 
+Grid     : Message    : 29019 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 29019 ms : WilsonFermion5D TotalTime   /Calls        : 3426.9 us
+Grid     : Message    : 29019 ms : WilsonFermion5D CommTime    /Calls        : 2572.3 us
+Grid     : Message    : 29019 ms : WilsonFermion5D FaceTime    /Calls        : 273.8 us
+Grid     : Message    : 29019 ms : WilsonFermion5D ComputeTime1/Calls        : 2647.4 us
+Grid     : Message    : 29019 ms : WilsonFermion5D ComputeTime2/Calls        : 445.2 us
+Grid     : Message    : 29019 ms : Average mflops/s per call                : 1344161.0
+Grid     : Message    : 29020 ms : Average mflops/s per call per rank       : 84010.1
+Grid     : Message    : 29020 ms : Average mflops/s per call per node       : 84010.1
+Grid     : Message    : 29020 ms : Average mflops/s per call (full)         : 1040943.0
+Grid     : Message    : 29020 ms : Average mflops/s per call per rank (full): 65058.9
+Grid     : Message    : 29020 ms : Average mflops/s per call per node (full): 65058.9
+Grid     : Message    : 29020 ms : WilsonFermion5D Stencil
+Grid     : Message    : 29021 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 29021 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 29021 ms :  Stencil calls 1000.0
+Grid     : Message    : 29021 ms :  Stencil halogtime 191.7
+Grid     : Message    : 29021 ms :  Stencil gathertime 66.1
+Grid     : Message    : 29021 ms :  Stencil gathermtime 112.2
+Grid     : Message    : 29021 ms :  Stencil mergetime 83.1
+Grid     : Message    : 29022 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 29022 ms :  Stencil comms_bytes 5308416.0
+Grid     : Message    : 29022 ms :  Stencil commtime 2461.4
+Grid     : Message    : 29022 ms :  Stencil 2.2 GB/s per rank
+Grid     : Message    : 29022 ms :  Stencil 2.2 GB/s per node
+Grid     : Message    : 29022 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 29022 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 29022 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 29022 ms :  Stencil splicetime 118.4
+Grid     : Message    : 29022 ms :  Stencil nosplicetime 70.9
+Grid     : Message    : 29022 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 29022 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 29022 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 29023 ms :  timer0 (HaloGatherOpt) 188.3
+Grid     : Message    : 29057 ms : norm diff   0.0
+Grid     : Message    : 29059 ms : ==================================================================================
+Grid     : Message    : 29059 ms : 24^4 x 1 Deo Best  mflop/s        =   1330675.7 ; 83167.2 per node 
+Grid     : Message    : 29059 ms : 24^4 x 1 Deo Worst mflop/s        =   1040784.5 ; 65049.0 per node 
+Grid     : Message    : 29059 ms : 24^4 x 1 Performance Robustness   =   0.782
+Grid     : Message    : 29060 ms : U/S ; U/O ; G/S ; G/O 
+Grid     : Message    : 29060 ms : 72325.028 ; 83167.233 ; 68563.812 ; 65049.031 ; 
+Grid     : Message    : 29060 ms : ==================================================================================
+Grid     : Message    : 29115 ms : ==================================================================================
+Grid     : Message    : 29115 ms :  Domain wall dslash 4D vectorised
+Grid     : Message    : 29115 ms : ==================================================================================
+Grid     : Message    : 29115 ms : ==================================================================================
+Grid     : Message    : 29115 ms : Benchmark DWF on 8^4 local volume 
+Grid     : Message    : 29115 ms : * Global volume  : 16 16 16 16 
+Grid     : Message    : 29115 ms : * Ls             : 16
+Grid     : Message    : 29115 ms : * MPI ranks      : 2 2 2 2 
+Grid     : Message    : 29115 ms : * Intranode      : 1 1 1 1 
+Grid     : Message    : 29115 ms : * nodes          : 2 2 2 2 
+Grid     : Message    : 29115 ms : * Using 12 threads
+Grid     : Message    : 29115 ms : ==================================================================================
+Grid     : Message    : 29496 ms : Initialised RNGs
+Grid     : Message    : 29529 ms : DomainWallFermion with Ls=16
+Grid     : Message    : 29568 ms : ==================================================================================
+Grid     : Message    : 29568 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 29568 ms : * Using sequential comms compute
+Grid     : Message    : 29568 ms : * SINGLE precision 
+Grid     : Message    : 29568 ms : ==================================================================================
+Grid     : Message    : 30466 ms : Deo mflop/s =   944037.9 (2279.2) 398779.3-988279.2
+Grid     : Message    : 30466 ms : Deo mflop/s per rank   59002.4
+Grid     : Message    : 30466 ms : Deo mflop/s per node   59002.4
+Grid     : Message    : 30466 ms : #### Dhop calls report 
+Grid     : Message    : 30466 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 30466 ms : WilsonFermion5D TotalTime   /Calls        : 746.3 us
+Grid     : Message    : 30466 ms : WilsonFermion5D CommTime    /Calls        : 571.9 us
+Grid     : Message    : 30466 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 30466 ms : WilsonFermion5D ComputeTime1/Calls        : 174.2 us
+Grid     : Message    : 30466 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 30466 ms : Average mflops/s per call                : 4116975.9
+Grid     : Message    : 30466 ms : Average mflops/s per call per rank       : 257311.0
+Grid     : Message    : 30466 ms : Average mflops/s per call per node       : 257311.0
+Grid     : Message    : 30466 ms : Average mflops/s per call (full)         : 944212.4
+Grid     : Message    : 30467 ms : Average mflops/s per call per rank (full): 59013.3
+Grid     : Message    : 30467 ms : Average mflops/s per call per node (full): 59013.3
+Grid     : Message    : 30467 ms : WilsonFermion5D Stencil
+Grid     : Message    : 30467 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 30467 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 30467 ms :  Stencil calls 1000.0
+Grid     : Message    : 30468 ms :  Stencil halogtime 70.0
+Grid     : Message    : 30468 ms :  Stencil gathertime 23.4
+Grid     : Message    : 30468 ms :  Stencil gathermtime 40.4
+Grid     : Message    : 30468 ms :  Stencil mergetime 38.9
+Grid     : Message    : 30468 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 30468 ms :  Stencil comms_bytes 3145728.0
+Grid     : Message    : 30468 ms :  Stencil commtime 461.9
+Grid     : Message    : 30468 ms :  Stencil 6.8 GB/s per rank
+Grid     : Message    : 30468 ms :  Stencil 6.8 GB/s per node
+Grid     : Message    : 30468 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 30469 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 30469 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 30469 ms :  Stencil splicetime 43.7
+Grid     : Message    : 30469 ms :  Stencil nosplicetime 25.3
+Grid     : Message    : 30469 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 30469 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 30469 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 30469 ms :  timer0 (HaloGatherOpt) 69.1
+Grid     : Message    : 30469 ms :  timer1 (Communicate)   462.6
+Grid     : Message    : 30469 ms :  timer2 (CommsMerge )   39.4
+Grid     : Message    : 30469 ms :  timer3 (commsMergeShm) 0.2
+Grid     : Message    : 30475 ms : norm diff   0.0
+Grid     : Message    : 30477 ms : ==================================================================================
+Grid     : Message    : 30477 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 30477 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 30477 ms : * SINGLE precision 
+Grid     : Message    : 30477 ms : ==================================================================================
+Grid     : Message    : 31252 ms : Deo mflop/s =   1092134.6 (636.7) 988279.2-1147627.2
+Grid     : Message    : 31252 ms : Deo mflop/s per rank   68258.4
+Grid     : Message    : 31252 ms : Deo mflop/s per node   68258.4
+Grid     : Message    : 31252 ms : #### Dhop calls report 
+Grid     : Message    : 31252 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 31252 ms : WilsonFermion5D TotalTime   /Calls        : 645.0 us
+Grid     : Message    : 31252 ms : WilsonFermion5D CommTime    /Calls        : 457.4 us
+Grid     : Message    : 31252 ms : WilsonFermion5D FaceTime    /Calls        : 113.6 us
+Grid     : Message    : 31252 ms : WilsonFermion5D ComputeTime1/Calls        : 199.2 us
+Grid     : Message    : 31252 ms : WilsonFermion5D ComputeTime2/Calls        : 71.2 us
+Grid     : Message    : 31252 ms : Average mflops/s per call                : 3538338.4
+Grid     : Message    : 31252 ms : Average mflops/s per call per rank       : 221146.2
+Grid     : Message    : 31252 ms : Average mflops/s per call per node       : 221146.2
+Grid     : Message    : 31253 ms : Average mflops/s per call (full)         : 1092412.3
+Grid     : Message    : 31253 ms : Average mflops/s per call per rank (full): 68275.8
+Grid     : Message    : 31253 ms : Average mflops/s per call per node (full): 68275.8
+Grid     : Message    : 31253 ms : WilsonFermion5D Stencil
+Grid     : Message    : 31253 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 31253 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 31253 ms :  Stencil calls 1000.0
+Grid     : Message    : 31254 ms :  Stencil halogtime 72.2
+Grid     : Message    : 31254 ms :  Stencil gathertime 24.9
+Grid     : Message    : 31254 ms :  Stencil gathermtime 41.2
+Grid     : Message    : 31254 ms :  Stencil mergetime 40.6
+Grid     : Message    : 31254 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 31254 ms :  Stencil comms_bytes 3145728.0
+Grid     : Message    : 31254 ms :  Stencil commtime 462.3
+Grid     : Message    : 31255 ms :  Stencil 6.8 GB/s per rank
+Grid     : Message    : 31255 ms :  Stencil 6.8 GB/s per node
+Grid     : Message    : 31255 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 31255 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 31255 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 31255 ms :  Stencil splicetime 44.3
+Grid     : Message    : 31255 ms :  Stencil nosplicetime 26.8
+Grid     : Message    : 31255 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 31255 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 31255 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 31255 ms :  timer0 (HaloGatherOpt) 71.6
+Grid     : Message    : 31261 ms : norm diff   0.0
+Grid     : Message    : 31263 ms : ==================================================================================
+Grid     : Message    : 31263 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 31263 ms : * Using sequential comms compute
+Grid     : Message    : 31263 ms : * SINGLE precision 
+Grid     : Message    : 31263 ms : ==================================================================================
+Grid     : Message    : 32178 ms : Deo mflop/s =   923975.4 (751.6) 648245.7-971921.5
+Grid     : Message    : 32178 ms : Deo mflop/s per rank   57748.5
+Grid     : Message    : 32178 ms : Deo mflop/s per node   57748.5
+Grid     : Message    : 32178 ms : #### Dhop calls report 
+Grid     : Message    : 32178 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 32178 ms : WilsonFermion5D TotalTime   /Calls        : 762.5 us
+Grid     : Message    : 32178 ms : WilsonFermion5D CommTime    /Calls        : 568.5 us
+Grid     : Message    : 32179 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 32179 ms : WilsonFermion5D ComputeTime1/Calls        : 193.8 us
+Grid     : Message    : 32179 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 32179 ms : Average mflops/s per call                : 3700543.1
+Grid     : Message    : 32179 ms : Average mflops/s per call per rank       : 231283.9
+Grid     : Message    : 32179 ms : Average mflops/s per call per node       : 231283.9
+Grid     : Message    : 32179 ms : Average mflops/s per call (full)         : 924162.1
+Grid     : Message    : 32179 ms : Average mflops/s per call per rank (full): 57760.1
+Grid     : Message    : 32180 ms : Average mflops/s per call per node (full): 57760.1
+Grid     : Message    : 32180 ms : WilsonFermion5D Stencil
+Grid     : Message    : 32180 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 32180 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 32180 ms :  Stencil calls 1000.0
+Grid     : Message    : 32180 ms :  Stencil halogtime 70.0
+Grid     : Message    : 32181 ms :  Stencil gathertime 23.3
+Grid     : Message    : 32181 ms :  Stencil gathermtime 40.4
+Grid     : Message    : 32181 ms :  Stencil mergetime 39.0
+Grid     : Message    : 32181 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 32181 ms :  Stencil comms_bytes 3145728.0
+Grid     : Message    : 32181 ms :  Stencil commtime 458.8
+Grid     : Message    : 32181 ms :  Stencil 6.9 GB/s per rank
+Grid     : Message    : 32181 ms :  Stencil 6.9 GB/s per node
+Grid     : Message    : 32182 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 32182 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 32182 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 32182 ms :  Stencil splicetime 43.7
+Grid     : Message    : 32182 ms :  Stencil nosplicetime 25.2
+Grid     : Message    : 32182 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 32182 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 32182 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 32182 ms :  timer0 (HaloGatherOpt) 68.7
+Grid     : Message    : 32182 ms :  timer1 (Communicate)   459.3
+Grid     : Message    : 32182 ms :  timer2 (CommsMerge )   39.6
+Grid     : Message    : 32182 ms :  timer3 (commsMergeShm) 0.2
+Grid     : Message    : 32188 ms : norm diff   0.0
+Grid     : Message    : 32190 ms : ==================================================================================
+Grid     : Message    : 32190 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 32190 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 32190 ms : * SINGLE precision 
+Grid     : Message    : 32190 ms : ==================================================================================
+Grid     : Message    : 32978 ms : Deo mflop/s =   1074025.0 (679.2) 1013874.9-1162777.3
+Grid     : Message    : 32978 ms : Deo mflop/s per rank   67126.6
+Grid     : Message    : 32978 ms : Deo mflop/s per node   67126.6
+Grid     : Message    : 32978 ms : #### Dhop calls report 
+Grid     : Message    : 32978 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 32978 ms : WilsonFermion5D TotalTime   /Calls        : 655.9 us
+Grid     : Message    : 32978 ms : WilsonFermion5D CommTime    /Calls        : 457.8 us
+Grid     : Message    : 32978 ms : WilsonFermion5D FaceTime    /Calls        : 113.1 us
+Grid     : Message    : 32978 ms : WilsonFermion5D ComputeTime1/Calls        : 288.2 us
+Grid     : Message    : 32978 ms : WilsonFermion5D ComputeTime2/Calls        : 82.0 us
+Grid     : Message    : 32978 ms : Average mflops/s per call                : 2440447.0
+Grid     : Message    : 32978 ms : Average mflops/s per call per rank       : 152527.9
+Grid     : Message    : 32979 ms : Average mflops/s per call per node       : 152527.9
+Grid     : Message    : 32979 ms : Average mflops/s per call (full)         : 1074272.2
+Grid     : Message    : 32979 ms : Average mflops/s per call per rank (full): 67142.0
+Grid     : Message    : 32979 ms : Average mflops/s per call per node (full): 67142.0
+Grid     : Message    : 32979 ms : WilsonFermion5D Stencil
+Grid     : Message    : 32979 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 32980 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 32980 ms :  Stencil calls 1000.0
+Grid     : Message    : 32980 ms :  Stencil halogtime 72.4
+Grid     : Message    : 32980 ms :  Stencil gathertime 25.1
+Grid     : Message    : 32980 ms :  Stencil gathermtime 41.2
+Grid     : Message    : 32980 ms :  Stencil mergetime 40.6
+Grid     : Message    : 32980 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 32981 ms :  Stencil comms_bytes 3145728.0
+Grid     : Message    : 32981 ms :  Stencil commtime 460.7
+Grid     : Message    : 32981 ms :  Stencil 6.8 GB/s per rank
+Grid     : Message    : 32981 ms :  Stencil 6.8 GB/s per node
+Grid     : Message    : 32981 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 32981 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 32981 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 32981 ms :  Stencil splicetime 44.4
+Grid     : Message    : 32981 ms :  Stencil nosplicetime 26.9
+Grid     : Message    : 32981 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 32981 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 32981 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 32981 ms :  timer0 (HaloGatherOpt) 71.3
+Grid     : Message    : 32987 ms : norm diff   0.0
+Grid     : Message    : 32989 ms : ==================================================================================
+Grid     : Message    : 32989 ms : 8^4 x 16 Deo Best  mflop/s        =   1092134.6 ; 68258.4 per node 
+Grid     : Message    : 32989 ms : 8^4 x 16 Deo Worst mflop/s        =   923975.4 ; 57748.5 per node 
+Grid     : Message    : 32989 ms : 8^4 x 16 Performance Robustness   =   0.846
+Grid     : Message    : 32989 ms : U/S ; U/O ; G/S ; G/O 
+Grid     : Message    : 32989 ms : 59002.366 ; 68258.414 ; 57748.465 ; 67126.560 ; 
+Grid     : Message    : 32989 ms : ==================================================================================
+Grid     : Message    : 32995 ms : ==================================================================================
+Grid     : Message    : 32995 ms : Benchmark DWF on 12^4 local volume 
+Grid     : Message    : 32995 ms : * Global volume  : 24 24 24 24 
+Grid     : Message    : 32995 ms : * Ls             : 16
+Grid     : Message    : 32995 ms : * MPI ranks      : 2 2 2 2 
+Grid     : Message    : 32995 ms : * Intranode      : 1 1 1 1 
+Grid     : Message    : 32996 ms : * nodes          : 2 2 2 2 
+Grid     : Message    : 32996 ms : * Using 12 threads
+Grid     : Message    : 32996 ms : ==================================================================================
+Grid     : Message    : 34914 ms : Initialised RNGs
+Grid     : Message    : 35127 ms : DomainWallFermion with Ls=16
+Grid     : Message    : 35378 ms : ==================================================================================
+Grid     : Message    : 35378 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 35378 ms : * Using sequential comms compute
+Grid     : Message    : 35378 ms : * SINGLE precision 
+Grid     : Message    : 35378 ms : ==================================================================================
+Grid     : Message    : 38847 ms : Deo mflop/s =   1234302.2 (1192.5) 797508.5-1294359.8
+Grid     : Message    : 38847 ms : Deo mflop/s per rank   77143.9
+Grid     : Message    : 38847 ms : Deo mflop/s per node   77143.9
+Grid     : Message    : 38847 ms : #### Dhop calls report 
+Grid     : Message    : 38847 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 38847 ms : WilsonFermion5D TotalTime   /Calls        : 2889.6 us
+Grid     : Message    : 38847 ms : WilsonFermion5D CommTime    /Calls        : 1901.0 us
+Grid     : Message    : 38847 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 38847 ms : WilsonFermion5D ComputeTime1/Calls        : 987.8 us
+Grid     : Message    : 38847 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 38847 ms : Average mflops/s per call                : 3532735.9
+Grid     : Message    : 38848 ms : Average mflops/s per call per rank       : 220796.0
+Grid     : Message    : 38848 ms : Average mflops/s per call per node       : 220796.0
+Grid     : Message    : 38848 ms : Average mflops/s per call (full)         : 1234523.9
+Grid     : Message    : 38848 ms : Average mflops/s per call per rank (full): 77157.7
+Grid     : Message    : 38848 ms : Average mflops/s per call per node (full): 77157.7
+Grid     : Message    : 38849 ms : WilsonFermion5D Stencil
+Grid     : Message    : 38849 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 38849 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 38849 ms :  Stencil calls 1000.0
+Grid     : Message    : 38849 ms :  Stencil halogtime 268.5
+Grid     : Message    : 38849 ms :  Stencil gathertime 88.4
+Grid     : Message    : 38849 ms :  Stencil gathermtime 164.9
+Grid     : Message    : 38850 ms :  Stencil mergetime 136.2
+Grid     : Message    : 38850 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 38850 ms :  Stencil comms_bytes 10616832.0
+Grid     : Message    : 38850 ms :  Stencil commtime 1467.4
+Grid     : Message    : 38850 ms :  Stencil 7.2 GB/s per rank
+Grid     : Message    : 38850 ms :  Stencil 7.2 GB/s per node
+Grid     : Message    : 38850 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 38850 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 38850 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 38851 ms :  Stencil splicetime 172.5
+Grid     : Message    : 38851 ms :  Stencil nosplicetime 93.4
+Grid     : Message    : 38851 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 38851 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 38851 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 38851 ms :  timer0 (HaloGatherOpt) 265.4
+Grid     : Message    : 38851 ms :  timer1 (Communicate)   1495.1
+Grid     : Message    : 38851 ms :  timer2 (CommsMerge )   138.8
+Grid     : Message    : 38851 ms :  timer3 (commsMergeShm) 0.4
+Grid     : Message    : 38880 ms : norm diff   0.0
+Grid     : Message    : 38882 ms : ==================================================================================
+Grid     : Message    : 38882 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 38882 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 38882 ms : * SINGLE precision 
+Grid     : Message    : 38882 ms : ==================================================================================
+Grid     : Message    : 41857 ms : Deo mflop/s =   1438531.3 (1856.8) 967785.0-1552330.5
+Grid     : Message    : 41857 ms : Deo mflop/s per rank   89908.2
+Grid     : Message    : 41857 ms : Deo mflop/s per node   89908.2
+Grid     : Message    : 41857 ms : #### Dhop calls report 
+Grid     : Message    : 41857 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 41857 ms : WilsonFermion5D TotalTime   /Calls        : 2479.3 us
+Grid     : Message    : 41857 ms : WilsonFermion5D CommTime    /Calls        : 1528.3 us
+Grid     : Message    : 41857 ms : WilsonFermion5D FaceTime    /Calls        : 515.6 us
+Grid     : Message    : 41857 ms : WilsonFermion5D ComputeTime1/Calls        : 1111.8 us
+Grid     : Message    : 41857 ms : WilsonFermion5D ComputeTime2/Calls        : 430.4 us
+Grid     : Message    : 41857 ms : Average mflops/s per call                : 3053065.2
+Grid     : Message    : 41857 ms : Average mflops/s per call per rank       : 190816.6
+Grid     : Message    : 41858 ms : Average mflops/s per call per node       : 190816.6
+Grid     : Message    : 41858 ms : Average mflops/s per call (full)         : 1438837.1
+Grid     : Message    : 41858 ms : Average mflops/s per call per rank (full): 89927.3
+Grid     : Message    : 41858 ms : Average mflops/s per call per node (full): 89927.3
+Grid     : Message    : 41858 ms : WilsonFermion5D Stencil
+Grid     : Message    : 41859 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 41859 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 41859 ms :  Stencil calls 1000.0
+Grid     : Message    : 41859 ms :  Stencil halogtime 342.2
+Grid     : Message    : 41859 ms :  Stencil gathertime 115.8
+Grid     : Message    : 41859 ms :  Stencil gathermtime 210.6
+Grid     : Message    : 41859 ms :  Stencil mergetime 169.3
+Grid     : Message    : 41859 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 41860 ms :  Stencil comms_bytes 10616832.0
+Grid     : Message    : 41860 ms :  Stencil commtime 1539.2
+Grid     : Message    : 41860 ms :  Stencil 6.9 GB/s per rank
+Grid     : Message    : 41860 ms :  Stencil 6.9 GB/s per node
+Grid     : Message    : 41860 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 41860 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 41860 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 41860 ms :  Stencil splicetime 218.5
+Grid     : Message    : 41860 ms :  Stencil nosplicetime 121.0
+Grid     : Message    : 41860 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 41860 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 41860 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 41860 ms :  timer0 (HaloGatherOpt) 336.5
+Grid     : Message    : 41889 ms : norm diff   0.0
+Grid     : Message    : 41890 ms : ==================================================================================
+Grid     : Message    : 41890 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 41890 ms : * Using sequential comms compute
+Grid     : Message    : 41890 ms : * SINGLE precision 
+Grid     : Message    : 41890 ms : ==================================================================================
+Grid     : Message    : 45500 ms : Deo mflop/s =   1186428.8 (1423.7) 746131.7-1253427.8
+Grid     : Message    : 45500 ms : Deo mflop/s per rank   74151.8
+Grid     : Message    : 45500 ms : Deo mflop/s per node   74151.8
+Grid     : Message    : 45500 ms : #### Dhop calls report 
+Grid     : Message    : 45500 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 45500 ms : WilsonFermion5D TotalTime   /Calls        : 3006.3 us
+Grid     : Message    : 45500 ms : WilsonFermion5D CommTime    /Calls        : 1930.7 us
+Grid     : Message    : 45500 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 45500 ms : WilsonFermion5D ComputeTime1/Calls        : 1074.8 us
+Grid     : Message    : 45500 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 45500 ms : Average mflops/s per call                : 3267553.1
+Grid     : Message    : 45500 ms : Average mflops/s per call per rank       : 204222.1
+Grid     : Message    : 45501 ms : Average mflops/s per call per node       : 204222.1
+Grid     : Message    : 45501 ms : Average mflops/s per call (full)         : 1186605.2
+Grid     : Message    : 45501 ms : Average mflops/s per call per rank (full): 74162.8
+Grid     : Message    : 45501 ms : Average mflops/s per call per node (full): 74162.8
+Grid     : Message    : 45501 ms : WilsonFermion5D Stencil
+Grid     : Message    : 45502 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 45502 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 45502 ms :  Stencil calls 1000.0
+Grid     : Message    : 45502 ms :  Stencil halogtime 270.8
+Grid     : Message    : 45502 ms :  Stencil gathertime 88.6
+Grid     : Message    : 45502 ms :  Stencil gathermtime 166.7
+Grid     : Message    : 45502 ms :  Stencil mergetime 136.2
+Grid     : Message    : 45502 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 45503 ms :  Stencil comms_bytes 10616832.0
+Grid     : Message    : 45503 ms :  Stencil commtime 1499.8
+Grid     : Message    : 45503 ms :  Stencil 7.1 GB/s per rank
+Grid     : Message    : 45503 ms :  Stencil 7.1 GB/s per node
+Grid     : Message    : 45503 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 45503 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 45503 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 45504 ms :  Stencil splicetime 174.3
+Grid     : Message    : 45504 ms :  Stencil nosplicetime 93.8
+Grid     : Message    : 45504 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 45504 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 45504 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 45504 ms :  timer0 (HaloGatherOpt) 268.3
+Grid     : Message    : 45504 ms :  timer1 (Communicate)   1521.5
+Grid     : Message    : 45504 ms :  timer2 (CommsMerge )   139.2
+Grid     : Message    : 45504 ms :  timer3 (commsMergeShm) 0.3
+Grid     : Message    : 45533 ms : norm diff   0.0
+Grid     : Message    : 45534 ms : ==================================================================================
+Grid     : Message    : 45534 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 45534 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 45534 ms : * SINGLE precision 
+Grid     : Message    : 45534 ms : ==================================================================================
+Grid     : Message    : 48659 ms : Deo mflop/s =   1370304.3 (2326.9) 899913.1-1451283.8
+Grid     : Message    : 48659 ms : Deo mflop/s per rank   85644.0
+Grid     : Message    : 48659 ms : Deo mflop/s per node   85644.0
+Grid     : Message    : 48659 ms : #### Dhop calls report 
+Grid     : Message    : 48659 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 48659 ms : WilsonFermion5D TotalTime   /Calls        : 2602.7 us
+Grid     : Message    : 48659 ms : WilsonFermion5D CommTime    /Calls        : 1654.0 us
+Grid     : Message    : 48659 ms : WilsonFermion5D FaceTime    /Calls        : 495.4 us
+Grid     : Message    : 48659 ms : WilsonFermion5D ComputeTime1/Calls        : 1558.2 us
+Grid     : Message    : 48659 ms : WilsonFermion5D ComputeTime2/Calls        : 428.2 us
+Grid     : Message    : 48659 ms : Average mflops/s per call                : 2261301.8
+Grid     : Message    : 48659 ms : Average mflops/s per call per rank       : 141331.4
+Grid     : Message    : 48659 ms : Average mflops/s per call per node       : 141331.4
+Grid     : Message    : 48660 ms : Average mflops/s per call (full)         : 1370609.6
+Grid     : Message    : 48660 ms : Average mflops/s per call per rank (full): 85663.1
+Grid     : Message    : 48660 ms : Average mflops/s per call per node (full): 85663.1
+Grid     : Message    : 48660 ms : WilsonFermion5D Stencil
+Grid     : Message    : 48660 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 48661 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 48661 ms :  Stencil calls 1000.0
+Grid     : Message    : 48661 ms :  Stencil halogtime 345.9
+Grid     : Message    : 48661 ms :  Stencil gathertime 116.5
+Grid     : Message    : 48661 ms :  Stencil gathermtime 213.9
+Grid     : Message    : 48661 ms :  Stencil mergetime 155.4
+Grid     : Message    : 48661 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 48661 ms :  Stencil comms_bytes 10616832.0
+Grid     : Message    : 48661 ms :  Stencil commtime 1641.1
+Grid     : Message    : 48662 ms :  Stencil 6.5 GB/s per rank
+Grid     : Message    : 48662 ms :  Stencil 6.5 GB/s per node
+Grid     : Message    : 48662 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 48662 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 48662 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 48662 ms :  Stencil splicetime 221.9
+Grid     : Message    : 48662 ms :  Stencil nosplicetime 121.4
+Grid     : Message    : 48662 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 48662 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 48662 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 48662 ms :  timer0 (HaloGatherOpt) 336.2
+Grid     : Message    : 48691 ms : norm diff   0.0
+Grid     : Message    : 48693 ms : ==================================================================================
+Grid     : Message    : 48693 ms : 12^4 x 16 Deo Best  mflop/s        =   1438531.3 ; 89908.2 per node 
+Grid     : Message    : 48693 ms : 12^4 x 16 Deo Worst mflop/s        =   1186428.8 ; 74151.8 per node 
+Grid     : Message    : 48693 ms : 12^4 x 16 Performance Robustness   =   0.825
+Grid     : Message    : 48694 ms : U/S ; U/O ; G/S ; G/O 
+Grid     : Message    : 48694 ms : 77143.887 ; 89908.207 ; 74151.798 ; 85644.017 ; 
+Grid     : Message    : 48694 ms : ==================================================================================
+Grid     : Message    : 48723 ms : ==================================================================================
+Grid     : Message    : 48723 ms : Benchmark DWF on 16^4 local volume 
+Grid     : Message    : 48723 ms : * Global volume  : 32 32 32 32 
+Grid     : Message    : 48723 ms : * Ls             : 16
+Grid     : Message    : 48723 ms : * MPI ranks      : 2 2 2 2 
+Grid     : Message    : 48723 ms : * Intranode      : 1 1 1 1 
+Grid     : Message    : 48723 ms : * nodes          : 2 2 2 2 
+Grid     : Message    : 48723 ms : * Using 12 threads
+Grid     : Message    : 48723 ms : ==================================================================================
+Grid     : Message    : 54815 ms : Initialised RNGs
+Grid     : Message    : 55442 ms : DomainWallFermion with Ls=16
+Grid     : Message    : 56225 ms : ==================================================================================
+Grid     : Message    : 56225 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 56225 ms : * Using sequential comms compute
+Grid     : Message    : 56225 ms : * SINGLE precision 
+Grid     : Message    : 56225 ms : ==================================================================================
+Grid     : Message    : 66870 ms : Deo mflop/s =   1271451.9 (1751.0) 1038817.8-1361136.0
+Grid     : Message    : 66870 ms : Deo mflop/s per rank   79465.7
+Grid     : Message    : 66870 ms : Deo mflop/s per node   79465.7
+Grid     : Message    : 66870 ms : #### Dhop calls report 
+Grid     : Message    : 66870 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 66870 ms : WilsonFermion5D TotalTime   /Calls        : 8866.7 us
+Grid     : Message    : 66870 ms : WilsonFermion5D CommTime    /Calls        : 4770.4 us
+Grid     : Message    : 66870 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 66870 ms : WilsonFermion5D ComputeTime1/Calls        : 4095.5 us
+Grid     : Message    : 66870 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 66870 ms : Average mflops/s per call                : 2740053.2
+Grid     : Message    : 66870 ms : Average mflops/s per call per rank       : 171253.3
+Grid     : Message    : 66870 ms : Average mflops/s per call per node       : 171253.3
+Grid     : Message    : 66871 ms : Average mflops/s per call (full)         : 1271529.7
+Grid     : Message    : 66871 ms : Average mflops/s per call per rank (full): 79470.6
+Grid     : Message    : 66871 ms : Average mflops/s per call per node (full): 79470.6
+Grid     : Message    : 66871 ms : WilsonFermion5D Stencil
+Grid     : Message    : 66871 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 66872 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 66872 ms :  Stencil calls 1000.0
+Grid     : Message    : 66872 ms :  Stencil halogtime 851.3
+Grid     : Message    : 66872 ms :  Stencil gathertime 266.0
+Grid     : Message    : 66872 ms :  Stencil gathermtime 566.4
+Grid     : Message    : 66872 ms :  Stencil mergetime 399.1
+Grid     : Message    : 66872 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 66872 ms :  Stencil comms_bytes 25165824.0
+Grid     : Message    : 66873 ms :  Stencil commtime 3492.2
+Grid     : Message    : 66873 ms :  Stencil 7.2 GB/s per rank
+Grid     : Message    : 66873 ms :  Stencil 7.2 GB/s per node
+Grid     : Message    : 66873 ms :  Stencil mpi3synctime 0.2
+Grid     : Message    : 66873 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 66873 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 66873 ms :  Stencil splicetime 576.4
+Grid     : Message    : 66873 ms :  Stencil nosplicetime 271.9
+Grid     : Message    : 66873 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 66873 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 66873 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 66873 ms :  timer0 (HaloGatherOpt) 819.5
+Grid     : Message    : 66873 ms :  timer1 (Communicate)   3544.5
+Grid     : Message    : 66873 ms :  timer2 (CommsMerge )   404.7
+Grid     : Message    : 66873 ms :  timer3 (commsMergeShm) 0.6
+Grid     : Message    : 66964 ms : norm diff   0.0
+Grid     : Message    : 66969 ms : ==================================================================================
+Grid     : Message    : 66969 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 66969 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 66969 ms : * SINGLE precision 
+Grid     : Message    : 66969 ms : ==================================================================================
+Grid     : Message    : 76343 ms : Deo mflop/s =   1443553.2 (1647.2) 1328888.4-1603511.5
+Grid     : Message    : 76343 ms : Deo mflop/s per rank   90222.1
+Grid     : Message    : 76343 ms : Deo mflop/s per node   90222.1
+Grid     : Message    : 76343 ms : #### Dhop calls report 
+Grid     : Message    : 76343 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 76343 ms : WilsonFermion5D TotalTime   /Calls        : 7809.5 us
+Grid     : Message    : 76343 ms : WilsonFermion5D CommTime    /Calls        : 5321.8 us
+Grid     : Message    : 76343 ms : WilsonFermion5D FaceTime    /Calls        : 1370.1 us
+Grid     : Message    : 76343 ms : WilsonFermion5D ComputeTime1/Calls        : 4419.5 us
+Grid     : Message    : 76343 ms : WilsonFermion5D ComputeTime2/Calls        : 1111.0 us
+Grid     : Message    : 76343 ms : Average mflops/s per call                : 2456515.7
+Grid     : Message    : 76343 ms : Average mflops/s per call per rank       : 153532.2
+Grid     : Message    : 76343 ms : Average mflops/s per call per node       : 153532.2
+Grid     : Message    : 76343 ms : Average mflops/s per call (full)         : 1443659.7
+Grid     : Message    : 76344 ms : Average mflops/s per call per rank (full): 90228.7
+Grid     : Message    : 76344 ms : Average mflops/s per call per node (full): 90228.7
+Grid     : Message    : 76344 ms : WilsonFermion5D Stencil
+Grid     : Message    : 76344 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 76344 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 76344 ms :  Stencil calls 1000.0
+Grid     : Message    : 76344 ms :  Stencil halogtime 962.0
+Grid     : Message    : 76344 ms :  Stencil gathertime 328.1
+Grid     : Message    : 76345 ms :  Stencil gathermtime 615.0
+Grid     : Message    : 76345 ms :  Stencil mergetime 419.8
+Grid     : Message    : 76345 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 76345 ms :  Stencil comms_bytes 25165824.0
+Grid     : Message    : 76345 ms :  Stencil commtime 5222.7
+Grid     : Message    : 76345 ms :  Stencil 4.8 GB/s per rank
+Grid     : Message    : 76345 ms :  Stencil 4.8 GB/s per node
+Grid     : Message    : 76346 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 76346 ms :  Stencil mpi3synctime_g 0.2
+Grid     : Message    : 76346 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 76346 ms :  Stencil splicetime 624.4
+Grid     : Message    : 76346 ms :  Stencil nosplicetime 334.4
+Grid     : Message    : 76346 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 76346 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 76346 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 76346 ms :  timer0 (HaloGatherOpt) 943.7
+Grid     : Message    : 76433 ms : norm diff   0.0
+Grid     : Message    : 76439 ms : ==================================================================================
+Grid     : Message    : 76439 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 76439 ms : * Using sequential comms compute
+Grid     : Message    : 76439 ms : * SINGLE precision 
+Grid     : Message    : 76439 ms : ==================================================================================
+Grid     : Message    : 87240 ms : Deo mflop/s =   1251335.7 (2477.8) 930221.9-1357203.5
+Grid     : Message    : 87240 ms : Deo mflop/s per rank   78208.5
+Grid     : Message    : 87240 ms : Deo mflop/s per node   78208.5
+Grid     : Message    : 87240 ms : #### Dhop calls report 
+Grid     : Message    : 87240 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 87240 ms : WilsonFermion5D TotalTime   /Calls        : 9009.2 us
+Grid     : Message    : 87240 ms : WilsonFermion5D CommTime    /Calls        : 4746.7 us
+Grid     : Message    : 87240 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 87240 ms : WilsonFermion5D ComputeTime1/Calls        : 4261.6 us
+Grid     : Message    : 87240 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 87240 ms : Average mflops/s per call                : 2647975.3
+Grid     : Message    : 87241 ms : Average mflops/s per call per rank       : 165498.5
+Grid     : Message    : 87241 ms : Average mflops/s per call per node       : 165498.5
+Grid     : Message    : 87241 ms : Average mflops/s per call (full)         : 1251419.8
+Grid     : Message    : 87241 ms : Average mflops/s per call per rank (full): 78213.7
+Grid     : Message    : 87241 ms : Average mflops/s per call per node (full): 78213.7
+Grid     : Message    : 87242 ms : WilsonFermion5D Stencil
+Grid     : Message    : 87242 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 87242 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 87242 ms :  Stencil calls 1000.0
+Grid     : Message    : 87242 ms :  Stencil halogtime 845.5
+Grid     : Message    : 87242 ms :  Stencil gathertime 268.2
+Grid     : Message    : 87242 ms :  Stencil gathermtime 558.2
+Grid     : Message    : 87243 ms :  Stencil mergetime 399.4
+Grid     : Message    : 87243 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 87243 ms :  Stencil comms_bytes 25165824.0
+Grid     : Message    : 87243 ms :  Stencil commtime 3497.2
+Grid     : Message    : 87243 ms :  Stencil 7.2 GB/s per rank
+Grid     : Message    : 87243 ms :  Stencil 7.2 GB/s per node
+Grid     : Message    : 87243 ms :  Stencil mpi3synctime 0.2
+Grid     : Message    : 87243 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 87243 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 87244 ms :  Stencil splicetime 568.2
+Grid     : Message    : 87244 ms :  Stencil nosplicetime 274.2
+Grid     : Message    : 87244 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 87244 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 87244 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 87244 ms :  timer0 (HaloGatherOpt) 823.0
+Grid     : Message    : 87244 ms :  timer1 (Communicate)   3516.4
+Grid     : Message    : 87244 ms :  timer2 (CommsMerge )   405.7
+Grid     : Message    : 87244 ms :  timer3 (commsMergeShm) 0.5
+Grid     : Message    : 87333 ms : norm diff   0.0
+Grid     : Message    : 87338 ms : ==================================================================================
+Grid     : Message    : 87338 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 87338 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 87338 ms : * SINGLE precision 
+Grid     : Message    : 87338 ms : ==================================================================================
+Grid     : Message    : 97561 ms : Deo mflop/s =   1323720.1 (1380.1) 1089619.1-1419756.9
+Grid     : Message    : 97561 ms : Deo mflop/s per rank   82732.5
+Grid     : Message    : 97561 ms : Deo mflop/s per node   82732.5
+Grid     : Message    : 97561 ms : #### Dhop calls report 
+Grid     : Message    : 97561 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 97561 ms : WilsonFermion5D TotalTime   /Calls        : 8516.5 us
+Grid     : Message    : 97561 ms : WilsonFermion5D CommTime    /Calls        : 6007.7 us
+Grid     : Message    : 97561 ms : WilsonFermion5D FaceTime    /Calls        : 1379.1 us
+Grid     : Message    : 97561 ms : WilsonFermion5D ComputeTime1/Calls        : 5455.6 us
+Grid     : Message    : 97561 ms : WilsonFermion5D ComputeTime2/Calls        : 1118.4 us
+Grid     : Message    : 97561 ms : Average mflops/s per call                : 2035440.0
+Grid     : Message    : 97561 ms : Average mflops/s per call per rank       : 127215.0
+Grid     : Message    : 97562 ms : Average mflops/s per call per node       : 127215.0
+Grid     : Message    : 97562 ms : Average mflops/s per call (full)         : 1323814.7
+Grid     : Message    : 97562 ms : Average mflops/s per call per rank (full): 82738.4
+Grid     : Message    : 97562 ms : Average mflops/s per call per node (full): 82738.4
+Grid     : Message    : 97562 ms : WilsonFermion5D Stencil
+Grid     : Message    : 97563 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 97563 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 97563 ms :  Stencil calls 1000.0
+Grid     : Message    : 97563 ms :  Stencil halogtime 955.2
+Grid     : Message    : 97563 ms :  Stencil gathertime 321.5
+Grid     : Message    : 97563 ms :  Stencil gathermtime 614.9
+Grid     : Message    : 97563 ms :  Stencil mergetime 435.1
+Grid     : Message    : 97564 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 97564 ms :  Stencil comms_bytes 25165824.0
+Grid     : Message    : 97564 ms :  Stencil commtime 5816.4
+Grid     : Message    : 97564 ms :  Stencil 4.3 GB/s per rank
+Grid     : Message    : 97564 ms :  Stencil 4.3 GB/s per node
+Grid     : Message    : 97564 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 97564 ms :  Stencil mpi3synctime_g 0.2
+Grid     : Message    : 97565 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 97565 ms :  Stencil splicetime 624.5
+Grid     : Message    : 97565 ms :  Stencil nosplicetime 327.5
+Grid     : Message    : 97565 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 97565 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 97565 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 97565 ms :  timer0 (HaloGatherOpt) 944.9
+Grid     : Message    : 97654 ms : norm diff   0.0
+Grid     : Message    : 97659 ms : ==================================================================================
+Grid     : Message    : 97659 ms : 16^4 x 16 Deo Best  mflop/s        =   1443553.2 ; 90222.1 per node 
+Grid     : Message    : 97660 ms : 16^4 x 16 Deo Worst mflop/s        =   1251335.7 ; 78208.5 per node 
+Grid     : Message    : 97660 ms : 16^4 x 16 Performance Robustness   =   0.867
+Grid     : Message    : 97660 ms : U/S ; U/O ; G/S ; G/O 
+Grid     : Message    : 97660 ms : 79465.741 ; 90222.076 ; 78208.480 ; 82732.503 ; 
+Grid     : Message    : 97661 ms : ==================================================================================
+Grid     : Message    : 97751 ms : ==================================================================================
+Grid     : Message    : 97751 ms : Benchmark DWF on 24^4 local volume 
+Grid     : Message    : 97751 ms : * Global volume  : 48 48 48 48 
+Grid     : Message    : 97751 ms : * Ls             : 16
+Grid     : Message    : 97751 ms : * MPI ranks      : 2 2 2 2 
+Grid     : Message    : 97751 ms : * Intranode      : 1 1 1 1 
+Grid     : Message    : 97751 ms : * nodes          : 2 2 2 2 
+Grid     : Message    : 97751 ms : * Using 12 threads
+Grid     : Message    : 97751 ms : ==================================================================================
+Grid     : Message    : 128685 ms : Initialised RNGs
+Grid     : Message    : 132767 ms : DomainWallFermion with Ls=16
+Grid     : Message    : 136719 ms : ==================================================================================
+Grid     : Message    : 136719 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 136719 ms : * Using sequential comms compute
+Grid     : Message    : 136719 ms : * SINGLE precision 
+Grid     : Message    : 136719 ms : ==================================================================================
+Grid     : Message    : 189819 ms : Deo mflop/s =   1289097.2 (314.4) 1170359.4-1313513.2
+Grid     : Message    : 189820 ms : Deo mflop/s per rank   80568.6
+Grid     : Message    : 189820 ms : Deo mflop/s per node   80568.6
+Grid     : Message    : 189820 ms : #### Dhop calls report 
+Grid     : Message    : 189820 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 189820 ms : WilsonFermion5D TotalTime   /Calls        : 44275.6 us
+Grid     : Message    : 189820 ms : WilsonFermion5D CommTime    /Calls        : 25802.5 us
+Grid     : Message    : 189821 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 189821 ms : WilsonFermion5D ComputeTime1/Calls        : 18472.1 us
+Grid     : Message    : 189821 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 189821 ms : Average mflops/s per call                : 3095197.9
+Grid     : Message    : 189821 ms : Average mflops/s per call per rank       : 193449.9
+Grid     : Message    : 189821 ms : Average mflops/s per call per node       : 193449.9
+Grid     : Message    : 189821 ms : Average mflops/s per call (full)         : 1289110.3
+Grid     : Message    : 189821 ms : Average mflops/s per call per rank (full): 80569.4
+Grid     : Message    : 189821 ms : Average mflops/s per call per node (full): 80569.4
+Grid     : Message    : 189821 ms : WilsonFermion5D Stencil
+Grid     : Message    : 189821 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 189822 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 189822 ms :  Stencil calls 1000.0
+Grid     : Message    : 189822 ms :  Stencil halogtime 3136.8
+Grid     : Message    : 189822 ms :  Stencil gathertime 1015.1
+Grid     : Message    : 189822 ms :  Stencil gathermtime 2095.4
+Grid     : Message    : 189822 ms :  Stencil mergetime 1514.1
+Grid     : Message    : 189822 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 189822 ms :  Stencil comms_bytes 84934656.0
+Grid     : Message    : 189823 ms :  Stencil commtime 21159.5
+Grid     : Message    : 189823 ms :  Stencil 4.0 GB/s per rank
+Grid     : Message    : 189823 ms :  Stencil 4.0 GB/s per node
+Grid     : Message    : 189823 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 189823 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 189823 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 189823 ms :  Stencil splicetime 2109.2
+Grid     : Message    : 189823 ms :  Stencil nosplicetime 1023.4
+Grid     : Message    : 189823 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 189823 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 189823 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 189823 ms :  timer0 (HaloGatherOpt) 3131.1
+Grid     : Message    : 189823 ms :  timer1 (Communicate)   21162.6
+Grid     : Message    : 189823 ms :  timer2 (CommsMerge )   1506.6
+Grid     : Message    : 189823 ms :  timer3 (commsMergeShm) 0.6
+Grid     : Message    : 190282 ms : norm diff   0.0
+Grid     : Message    : 190369 ms : ==================================================================================
+Grid     : Message    : 190369 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 190369 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 190369 ms : * SINGLE precision 
+Grid     : Message    : 190369 ms : ==================================================================================
+Grid     : Message    : 229563 ms : Deo mflop/s =   1746957.1 (1076.4) 1542096.9-1864317.8
+Grid     : Message    : 229563 ms : Deo mflop/s per rank   109184.8
+Grid     : Message    : 229563 ms : Deo mflop/s per node   109184.8
+Grid     : Message    : 229563 ms : #### Dhop calls report 
+Grid     : Message    : 229563 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 229563 ms : WilsonFermion5D TotalTime   /Calls        : 32671.1 us
+Grid     : Message    : 229564 ms : WilsonFermion5D CommTime    /Calls        : 23698.0 us
+Grid     : Message    : 229564 ms : WilsonFermion5D FaceTime    /Calls        : 4799.4 us
+Grid     : Message    : 229564 ms : WilsonFermion5D ComputeTime1/Calls        : 21704.0 us
+Grid     : Message    : 229564 ms : WilsonFermion5D ComputeTime2/Calls        : 4160.3 us
+Grid     : Message    : 229564 ms : Average mflops/s per call                : 2555620.8
+Grid     : Message    : 229564 ms : Average mflops/s per call per rank       : 159726.3
+Grid     : Message    : 229564 ms : Average mflops/s per call per node       : 159726.3
+Grid     : Message    : 229564 ms : Average mflops/s per call (full)         : 1746991.3
+Grid     : Message    : 229564 ms : Average mflops/s per call per rank (full): 109187.0
+Grid     : Message    : 229564 ms : Average mflops/s per call per node (full): 109187.0
+Grid     : Message    : 229564 ms : WilsonFermion5D Stencil
+Grid     : Message    : 229564 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 229564 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 229564 ms :  Stencil calls 1000.0
+Grid     : Message    : 229564 ms :  Stencil halogtime 3298.2
+Grid     : Message    : 229564 ms :  Stencil gathertime 1116.1
+Grid     : Message    : 229564 ms :  Stencil gathermtime 2156.8
+Grid     : Message    : 229564 ms :  Stencil mergetime 1510.0
+Grid     : Message    : 229564 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 229564 ms :  Stencil comms_bytes 84934656.0
+Grid     : Message    : 229564 ms :  Stencil commtime 23672.8
+Grid     : Message    : 229564 ms :  Stencil 3.6 GB/s per rank
+Grid     : Message    : 229564 ms :  Stencil 3.6 GB/s per node
+Grid     : Message    : 229564 ms :  Stencil mpi3synctime 0.2
+Grid     : Message    : 229564 ms :  Stencil mpi3synctime_g 0.2
+Grid     : Message    : 229564 ms :  Stencil shmmergetime 0.2
+Grid     : Message    : 229564 ms :  Stencil splicetime 2169.7
+Grid     : Message    : 229564 ms :  Stencil nosplicetime 1124.3
+Grid     : Message    : 229564 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 229564 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 229564 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 229564 ms :  timer0 (HaloGatherOpt) 3299.2
+Grid     : Message    : 229996 ms : norm diff   0.0
+Grid     : Message    : 230017 ms : ==================================================================================
+Grid     : Message    : 230017 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 230017 ms : * Using sequential comms compute
+Grid     : Message    : 230017 ms : * SINGLE precision 
+Grid     : Message    : 230017 ms : ==================================================================================
+Grid     : Message    : 284121 ms : Deo mflop/s =   1266083.4 (487.5) 1058925.6-1326857.2
+Grid     : Message    : 284121 ms : Deo mflop/s per rank   79130.2
+Grid     : Message    : 284121 ms : Deo mflop/s per node   79130.2
+Grid     : Message    : 284121 ms : #### Dhop calls report 
+Grid     : Message    : 284121 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 284121 ms : WilsonFermion5D TotalTime   /Calls        : 45080.3 us
+Grid     : Message    : 284121 ms : WilsonFermion5D CommTime    /Calls        : 25846.8 us
+Grid     : Message    : 284121 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 284121 ms : WilsonFermion5D ComputeTime1/Calls        : 19232.6 us
+Grid     : Message    : 284121 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 284121 ms : Average mflops/s per call                : 2972712.0
+Grid     : Message    : 284121 ms : Average mflops/s per call per rank       : 185794.5
+Grid     : Message    : 284121 ms : Average mflops/s per call per node       : 185794.5
+Grid     : Message    : 284121 ms : Average mflops/s per call (full)         : 1266099.3
+Grid     : Message    : 284121 ms : Average mflops/s per call per rank (full): 79131.2
+Grid     : Message    : 284121 ms : Average mflops/s per call per node (full): 79131.2
+Grid     : Message    : 284121 ms : WilsonFermion5D Stencil
+Grid     : Message    : 284121 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 284121 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 284121 ms :  Stencil calls 1000.0
+Grid     : Message    : 284121 ms :  Stencil halogtime 3135.9
+Grid     : Message    : 284121 ms :  Stencil gathertime 1014.9
+Grid     : Message    : 284121 ms :  Stencil gathermtime 2095.3
+Grid     : Message    : 284121 ms :  Stencil mergetime 1514.1
+Grid     : Message    : 284121 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 284122 ms :  Stencil comms_bytes 84934656.0
+Grid     : Message    : 284122 ms :  Stencil commtime 21205.4
+Grid     : Message    : 284122 ms :  Stencil 4.0 GB/s per rank
+Grid     : Message    : 284122 ms :  Stencil 4.0 GB/s per node
+Grid     : Message    : 284122 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 284122 ms :  Stencil mpi3synctime_g 0.2
+Grid     : Message    : 284122 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 284122 ms :  Stencil splicetime 2108.6
+Grid     : Message    : 284122 ms :  Stencil nosplicetime 1023.0
+Grid     : Message    : 284122 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 284122 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 284122 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 284122 ms :  timer0 (HaloGatherOpt) 3128.3
+Grid     : Message    : 284122 ms :  timer1 (Communicate)   21210.0
+Grid     : Message    : 284122 ms :  timer2 (CommsMerge )   1506.5
+Grid     : Message    : 284122 ms :  timer3 (commsMergeShm) 0.6
+Grid     : Message    : 284579 ms : norm diff   0.0
+Grid     : Message    : 284601 ms : ==================================================================================
+Grid     : Message    : 284601 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 284601 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 284601 ms : * SINGLE precision 
+Grid     : Message    : 284601 ms : ==================================================================================
+Grid     : Message    : 329750 ms : Deo mflop/s =   1517663.4 (1341.0) 1229849.6-1574556.2
+Grid     : Message    : 329750 ms : Deo mflop/s per rank   94854.0
+Grid     : Message    : 329750 ms : Deo mflop/s per node   94854.0
+Grid     : Message    : 329750 ms : #### Dhop calls report 
+Grid     : Message    : 329750 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 329750 ms : WilsonFermion5D TotalTime   /Calls        : 37607.3 us
+Grid     : Message    : 329750 ms : WilsonFermion5D CommTime    /Calls        : 28494.3 us
+Grid     : Message    : 329750 ms : WilsonFermion5D FaceTime    /Calls        : 4802.3 us
+Grid     : Message    : 329750 ms : WilsonFermion5D ComputeTime1/Calls        : 27353.7 us
+Grid     : Message    : 329750 ms : WilsonFermion5D ComputeTime2/Calls        : 4176.8 us
+Grid     : Message    : 329750 ms : Average mflops/s per call                : 2066077.8
+Grid     : Message    : 329750 ms : Average mflops/s per call per rank       : 129129.9
+Grid     : Message    : 329750 ms : Average mflops/s per call per node       : 129129.9
+Grid     : Message    : 329750 ms : Average mflops/s per call (full)         : 1517686.8
+Grid     : Message    : 329750 ms : Average mflops/s per call per rank (full): 94855.4
+Grid     : Message    : 329750 ms : Average mflops/s per call per node (full): 94855.4
+Grid     : Message    : 329750 ms : WilsonFermion5D Stencil
+Grid     : Message    : 329750 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 329750 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 329750 ms :  Stencil calls 1000.0
+Grid     : Message    : 329750 ms :  Stencil halogtime 3312.8
+Grid     : Message    : 329751 ms :  Stencil gathertime 1121.2
+Grid     : Message    : 329751 ms :  Stencil gathermtime 2165.8
+Grid     : Message    : 329751 ms :  Stencil mergetime 1516.5
+Grid     : Message    : 329751 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 329751 ms :  Stencil comms_bytes 84934656.0
+Grid     : Message    : 329751 ms :  Stencil commtime 28003.2
+Grid     : Message    : 329751 ms :  Stencil 3.0 GB/s per rank
+Grid     : Message    : 329751 ms :  Stencil 3.0 GB/s per node
+Grid     : Message    : 329751 ms :  Stencil mpi3synctime 0.2
+Grid     : Message    : 329751 ms :  Stencil mpi3synctime_g 0.2
+Grid     : Message    : 329751 ms :  Stencil shmmergetime 0.2
+Grid     : Message    : 329751 ms :  Stencil splicetime 2179.0
+Grid     : Message    : 329751 ms :  Stencil nosplicetime 1129.5
+Grid     : Message    : 329751 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 329751 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 329751 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 329751 ms :  timer0 (HaloGatherOpt) 3295.3
+Grid     : Message    : 330191 ms : norm diff   0.0
+Grid     : Message    : 330214 ms : ==================================================================================
+Grid     : Message    : 330214 ms : 24^4 x 16 Deo Best  mflop/s        =   1746957.1 ; 109184.8 per node 
+Grid     : Message    : 330214 ms : 24^4 x 16 Deo Worst mflop/s        =   1266083.4 ; 79130.2 per node 
+Grid     : Message    : 330214 ms : 24^4 x 16 Performance Robustness   =   0.725
+Grid     : Message    : 330214 ms : U/S ; U/O ; G/S ; G/O 
+Grid     : Message    : 330214 ms : 80568.578 ; 109184.817 ; 79130.215 ; 94853.964 ; 
+Grid     : Message    : 330214 ms : ==================================================================================
+Grid     : Message    : 330661 ms : ==================================================================================
+Grid     : Message    : 330661 ms :  Domain wall dslash 4D vectorised
+Grid     : Message    : 330661 ms : ==================================================================================
+Grid     : Message    : 330661 ms : ==================================================================================
+Grid     : Message    : 330661 ms : Benchmark DWF Ls vec on 8^4 local volume 
+Grid     : Message    : 330661 ms : * Global volume  : 16 16 16 16 
+Grid     : Message    : 330661 ms : * Ls             : 16
+Grid     : Message    : 330661 ms : * MPI ranks      : 2 2 2 2 
+Grid     : Message    : 330661 ms : * Intranode      : 1 1 1 1 
+Grid     : Message    : 330661 ms : * nodes          : 2 2 2 2 
+Grid     : Message    : 330661 ms : * Using 12 threads
+Grid     : Message    : 330661 ms : ==================================================================================
+Grid     : Message    : 331043 ms : Initialised RNGs
+Grid     : Message    : 331084 ms : ==================================================================================
+Grid     : Message    : 331084 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 331084 ms : * Using sequential comms compute
+Grid     : Message    : 331084 ms : * SINGLE precision 
+Grid     : Message    : 331084 ms : ==================================================================================
+Grid     : Message    : 331910 ms : sDeo mflop/s =   940045.5 (3813.0) 318123.3-1006633.0
+Grid     : Message    : 331910 ms : sDeo mflop/s per rank   58752.8
+Grid     : Message    : 331910 ms : sDeo mflop/s per node   58752.8
+Grid     : Message    : 331911 ms : #### Dhop calls report 
+Grid     : Message    : 331911 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 331911 ms : WilsonFermion5D TotalTime   /Calls        : 749.4 us
+Grid     : Message    : 331911 ms : WilsonFermion5D CommTime    /Calls        : 541.3 us
+Grid     : Message    : 331911 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 331911 ms : WilsonFermion5D ComputeTime1/Calls        : 207.9 us
+Grid     : Message    : 331911 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 331911 ms : Average mflops/s per call                : 3411310.5
+Grid     : Message    : 331911 ms : Average mflops/s per call per rank       : 213206.9
+Grid     : Message    : 331911 ms : Average mflops/s per call per node       : 213206.9
+Grid     : Message    : 331911 ms : Average mflops/s per call (full)         : 940216.1
+Grid     : Message    : 331911 ms : Average mflops/s per call per rank (full): 58763.5
+Grid     : Message    : 331911 ms : Average mflops/s per call per node (full): 58763.5
+Grid     : Message    : 331911 ms : WilsonFermion5D Stencil
+Grid     : Message    : 331911 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 331911 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 331911 ms :  Stencil calls 1000.0
+Grid     : Message    : 331911 ms :  Stencil halogtime 62.9
+Grid     : Message    : 331911 ms :  Stencil gathertime 58.3
+Grid     : Message    : 331911 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 331911 ms :  Stencil mergetime 0.0
+Grid     : Message    : 331911 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 331911 ms :  Stencil comms_bytes 3145728.0
+Grid     : Message    : 331911 ms :  Stencil commtime 476.6
+Grid     : Message    : 331911 ms :  Stencil 6.6 GB/s per rank
+Grid     : Message    : 331911 ms :  Stencil 6.6 GB/s per node
+Grid     : Message    : 331911 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 331911 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 331911 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 331911 ms :  Stencil splicetime 0.0
+Grid     : Message    : 331911 ms :  Stencil nosplicetime 61.8
+Grid     : Message    : 331911 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 331911 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 331911 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 331911 ms :  timer0 (HaloGatherOpt) 62.0
+Grid     : Message    : 331911 ms :  timer1 (Communicate)   478.9
+Grid     : Message    : 331911 ms :  timer2 (CommsMerge )   0.0
+Grid     : Message    : 331911 ms :  timer3 (commsMergeShm) 0.2
+Grid     : Message    : 331911 ms : ==================================================================================
+Grid     : Message    : 331911 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 331911 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 331911 ms : * SINGLE precision 
+Grid     : Message    : 331911 ms : ==================================================================================
+Grid     : Message    : 332552 ms : sDeo mflop/s =   1211611.7 (774.7) 1087412.1-1300079.5
+Grid     : Message    : 332552 ms : sDeo mflop/s per rank   75725.7
+Grid     : Message    : 332552 ms : sDeo mflop/s per node   75725.7
+Grid     : Message    : 332552 ms : #### Dhop calls report 
+Grid     : Message    : 332552 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 332552 ms : WilsonFermion5D TotalTime   /Calls        : 581.5 us
+Grid     : Message    : 332552 ms : WilsonFermion5D CommTime    /Calls        : 456.9 us
+Grid     : Message    : 332552 ms : WilsonFermion5D FaceTime    /Calls        : 65.2 us
+Grid     : Message    : 332552 ms : WilsonFermion5D ComputeTime1/Calls        : 237.8 us
+Grid     : Message    : 332552 ms : WilsonFermion5D ComputeTime2/Calls        : 56.5 us
+Grid     : Message    : 332552 ms : Average mflops/s per call                : 2953754.6
+Grid     : Message    : 332552 ms : Average mflops/s per call per rank       : 184609.7
+Grid     : Message    : 332552 ms : Average mflops/s per call per node       : 184609.7
+Grid     : Message    : 332552 ms : Average mflops/s per call (full)         : 1211834.7
+Grid     : Message    : 332552 ms : Average mflops/s per call per rank (full): 75739.7
+Grid     : Message    : 332552 ms : Average mflops/s per call per node (full): 75739.7
+Grid     : Message    : 332552 ms : WilsonFermion5D Stencil
+Grid     : Message    : 332552 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 332552 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 332552 ms :  Stencil calls 1000.0
+Grid     : Message    : 332552 ms :  Stencil halogtime 63.5
+Grid     : Message    : 332552 ms :  Stencil gathertime 59.1
+Grid     : Message    : 332552 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 332552 ms :  Stencil mergetime 0.0
+Grid     : Message    : 332552 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 332552 ms :  Stencil comms_bytes 3145728.0
+Grid     : Message    : 332552 ms :  Stencil commtime 460.8
+Grid     : Message    : 332552 ms :  Stencil 6.8 GB/s per rank
+Grid     : Message    : 332552 ms :  Stencil 6.8 GB/s per node
+Grid     : Message    : 332552 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 332552 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 332553 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 332553 ms :  Stencil splicetime 0.0
+Grid     : Message    : 332553 ms :  Stencil nosplicetime 62.5
+Grid     : Message    : 332553 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 332553 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 332553 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 332553 ms :  timer0 (HaloGatherOpt) 64.9
+Grid     : Message    : 332553 ms : ==================================================================================
+Grid     : Message    : 332553 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 332553 ms : * Using sequential comms compute
+Grid     : Message    : 332553 ms : * SINGLE precision 
+Grid     : Message    : 332553 ms : ==================================================================================
+Grid     : Message    : 333469 ms : sDeo mflop/s =   846384.6 (1056.9) 645277.5-890825.6
+Grid     : Message    : 333469 ms : sDeo mflop/s per rank   52899.0
+Grid     : Message    : 333469 ms : sDeo mflop/s per node   52899.0
+Grid     : Message    : 333469 ms : #### Dhop calls report 
+Grid     : Message    : 333469 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 333469 ms : WilsonFermion5D TotalTime   /Calls        : 832.4 us
+Grid     : Message    : 333469 ms : WilsonFermion5D CommTime    /Calls        : 535.3 us
+Grid     : Message    : 333469 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 333469 ms : WilsonFermion5D ComputeTime1/Calls        : 296.9 us
+Grid     : Message    : 333469 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 333469 ms : Average mflops/s per call                : 2408064.7
+Grid     : Message    : 333469 ms : Average mflops/s per call per rank       : 150504.0
+Grid     : Message    : 333469 ms : Average mflops/s per call per node       : 150504.0
+Grid     : Message    : 333469 ms : Average mflops/s per call (full)         : 846521.8
+Grid     : Message    : 333469 ms : Average mflops/s per call per rank (full): 52907.6
+Grid     : Message    : 333469 ms : Average mflops/s per call per node (full): 52907.6
+Grid     : Message    : 333469 ms : WilsonFermion5D Stencil
+Grid     : Message    : 333469 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 333469 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 333469 ms :  Stencil calls 1000.0
+Grid     : Message    : 333470 ms :  Stencil halogtime 61.8
+Grid     : Message    : 333470 ms :  Stencil gathertime 57.3
+Grid     : Message    : 333470 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 333470 ms :  Stencil mergetime 0.0
+Grid     : Message    : 333470 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 333470 ms :  Stencil comms_bytes 3145728.0
+Grid     : Message    : 333470 ms :  Stencil commtime 474.2
+Grid     : Message    : 333470 ms :  Stencil 6.6 GB/s per rank
+Grid     : Message    : 333470 ms :  Stencil 6.6 GB/s per node
+Grid     : Message    : 333470 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 333470 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 333470 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 333470 ms :  Stencil splicetime 0.0
+Grid     : Message    : 333470 ms :  Stencil nosplicetime 60.7
+Grid     : Message    : 333470 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 333470 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 333470 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 333470 ms :  timer0 (HaloGatherOpt) 60.0
+Grid     : Message    : 333470 ms :  timer1 (Communicate)   474.8
+Grid     : Message    : 333470 ms :  timer2 (CommsMerge )   0.0
+Grid     : Message    : 333470 ms :  timer3 (commsMergeShm) 0.2
+Grid     : Message    : 333470 ms : ==================================================================================
+Grid     : Message    : 333470 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 333470 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 333470 ms : * SINGLE precision 
+Grid     : Message    : 333470 ms : ==================================================================================
+Grid     : Message    : 334121 ms : sDeo mflop/s =   1193369.8 (911.3) 800730.8-1253813.3
+Grid     : Message    : 334121 ms : sDeo mflop/s per rank   74585.6
+Grid     : Message    : 334121 ms : sDeo mflop/s per node   74585.6
+Grid     : Message    : 334121 ms : #### Dhop calls report 
+Grid     : Message    : 334121 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 334121 ms : WilsonFermion5D TotalTime   /Calls        : 590.3 us
+Grid     : Message    : 334121 ms : WilsonFermion5D CommTime    /Calls        : 457.0 us
+Grid     : Message    : 334121 ms : WilsonFermion5D FaceTime    /Calls        : 64.8 us
+Grid     : Message    : 334121 ms : WilsonFermion5D ComputeTime1/Calls        : 315.7 us
+Grid     : Message    : 334121 ms : WilsonFermion5D ComputeTime2/Calls        : 65.5 us
+Grid     : Message    : 334121 ms : Average mflops/s per call                : 2236272.6
+Grid     : Message    : 334121 ms : Average mflops/s per call per rank       : 139767.0
+Grid     : Message    : 334121 ms : Average mflops/s per call per node       : 139767.0
+Grid     : Message    : 334121 ms : Average mflops/s per call (full)         : 1193644.7
+Grid     : Message    : 334121 ms : Average mflops/s per call per rank (full): 74602.8
+Grid     : Message    : 334121 ms : Average mflops/s per call per node (full): 74602.8
+Grid     : Message    : 334121 ms : WilsonFermion5D Stencil
+Grid     : Message    : 334121 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 334121 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 334121 ms :  Stencil calls 1000.0
+Grid     : Message    : 334121 ms :  Stencil halogtime 63.3
+Grid     : Message    : 334121 ms :  Stencil gathertime 59.0
+Grid     : Message    : 334121 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 334121 ms :  Stencil mergetime 0.0
+Grid     : Message    : 334121 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 334121 ms :  Stencil comms_bytes 3145728.0
+Grid     : Message    : 334121 ms :  Stencil commtime 459.9
+Grid     : Message    : 334121 ms :  Stencil 6.8 GB/s per rank
+Grid     : Message    : 334121 ms :  Stencil 6.8 GB/s per node
+Grid     : Message    : 334121 ms :  Stencil mpi3synctime 0.0
+Grid     : Message    : 334121 ms :  Stencil mpi3synctime_g 0.0
+Grid     : Message    : 334121 ms :  Stencil shmmergetime 0.0
+Grid     : Message    : 334121 ms :  Stencil splicetime 0.0
+Grid     : Message    : 334121 ms :  Stencil nosplicetime 62.3
+Grid     : Message    : 334121 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 334121 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 334121 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 334121 ms :  timer0 (HaloGatherOpt) 64.5
+Grid     : Message    : 334121 ms : ==================================================================================
+Grid     : Message    : 334121 ms : 8^4 x 16 sDeo Best  mflop/s        =   1211611.7 ; 75725.7 per node 
+Grid     : Message    : 334121 ms : 8^4 x 16 sDeo Worst mflop/s        =   846384.6 ; 52899.0 per node 
+Grid     : Message    : 334121 ms : 8^4 x 16 Performance Robustness   =   0.699
+Grid     : Message    : 334121 ms : U/S ; U/O ; G/S ; G/O 
+Grid     : Message    : 334121 ms : 58752.844 ; 75725.731 ; 52899.035 ; 74585.610 ; 
+Grid     : Message    : 334121 ms : ==================================================================================
+Grid     : Message    : 334127 ms : ==================================================================================
+Grid     : Message    : 334127 ms : Benchmark DWF Ls vec on 12^4 local volume 
+Grid     : Message    : 334127 ms : * Global volume  : 24 24 24 24 
+Grid     : Message    : 334127 ms : * Ls             : 16
+Grid     : Message    : 334127 ms : * MPI ranks      : 2 2 2 2 
+Grid     : Message    : 334127 ms : * Intranode      : 1 1 1 1 
+Grid     : Message    : 334127 ms : * nodes          : 2 2 2 2 
+Grid     : Message    : 334127 ms : * Using 12 threads
+Grid     : Message    : 334127 ms : ==================================================================================
+Grid     : Message    : 336049 ms : Initialised RNGs
+Grid     : Message    : 336264 ms : ==================================================================================
+Grid     : Message    : 336264 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 336264 ms : * Using sequential comms compute
+Grid     : Message    : 336264 ms : * SINGLE precision 
+Grid     : Message    : 336264 ms : ==================================================================================
+Grid     : Message    : 339286 ms : sDeo mflop/s =   1303516.1 (1573.8) 1069321.2-1385342.0
+Grid     : Message    : 339286 ms : sDeo mflop/s per rank   81469.8
+Grid     : Message    : 339287 ms : sDeo mflop/s per node   81469.8
+Grid     : Message    : 339287 ms : #### Dhop calls report 
+Grid     : Message    : 339287 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 339287 ms : WilsonFermion5D TotalTime   /Calls        : 2736.2 us
+Grid     : Message    : 339287 ms : WilsonFermion5D CommTime    /Calls        : 1638.8 us
+Grid     : Message    : 339287 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 339287 ms : WilsonFermion5D ComputeTime1/Calls        : 1096.8 us
+Grid     : Message    : 339287 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 339287 ms : Average mflops/s per call                : 3258581.3
+Grid     : Message    : 339287 ms : Average mflops/s per call per rank       : 203661.3
+Grid     : Message    : 339287 ms : Average mflops/s per call per node       : 203661.3
+Grid     : Message    : 339287 ms : Average mflops/s per call (full)         : 1303708.5
+Grid     : Message    : 339287 ms : Average mflops/s per call per rank (full): 81481.8
+Grid     : Message    : 339287 ms : Average mflops/s per call per node (full): 81481.8
+Grid     : Message    : 339287 ms : WilsonFermion5D Stencil
+Grid     : Message    : 339287 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 339287 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 339287 ms :  Stencil calls 1000.0
+Grid     : Message    : 339287 ms :  Stencil halogtime 198.6
+Grid     : Message    : 339287 ms :  Stencil gathertime 188.3
+Grid     : Message    : 339287 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 339287 ms :  Stencil mergetime 0.0
+Grid     : Message    : 339287 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 339287 ms :  Stencil comms_bytes 10616832.0
+Grid     : Message    : 339287 ms :  Stencil commtime 1437.1
+Grid     : Message    : 339287 ms :  Stencil 7.4 GB/s per rank
+Grid     : Message    : 339287 ms :  Stencil 7.4 GB/s per node
+Grid     : Message    : 339287 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 339287 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 339287 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 339287 ms :  Stencil splicetime 0.0
+Grid     : Message    : 339287 ms :  Stencil nosplicetime 196.1
+Grid     : Message    : 339287 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 339287 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 339287 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 339287 ms :  timer0 (HaloGatherOpt) 196.5
+Grid     : Message    : 339287 ms :  timer1 (Communicate)   1441.6
+Grid     : Message    : 339287 ms :  timer2 (CommsMerge )   0.1
+Grid     : Message    : 339287 ms :  timer3 (commsMergeShm) 0.3
+Grid     : Message    : 339287 ms : ==================================================================================
+Grid     : Message    : 339287 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 339287 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 339287 ms : * SINGLE precision 
+Grid     : Message    : 339287 ms : ==================================================================================
+Grid     : Message    : 341529 ms : sDeo mflop/s =   1751973.1 (3131.8) 1314874.9-1919943.8
+Grid     : Message    : 341529 ms : sDeo mflop/s per rank   109498.3
+Grid     : Message    : 341529 ms : sDeo mflop/s per node   109498.3
+Grid     : Message    : 341529 ms : #### Dhop calls report 
+Grid     : Message    : 341529 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 341529 ms : WilsonFermion5D TotalTime   /Calls        : 2035.9 us
+Grid     : Message    : 341529 ms : WilsonFermion5D CommTime    /Calls        : 1480.0 us
+Grid     : Message    : 341529 ms : WilsonFermion5D FaceTime    /Calls        : 273.0 us
+Grid     : Message    : 341529 ms : WilsonFermion5D ComputeTime1/Calls        : 1294.8 us
+Grid     : Message    : 341529 ms : WilsonFermion5D ComputeTime2/Calls        : 278.8 us
+Grid     : Message    : 341529 ms : Average mflops/s per call                : 2727759.5
+Grid     : Message    : 341529 ms : Average mflops/s per call per rank       : 170485.0
+Grid     : Message    : 341529 ms : Average mflops/s per call per node       : 170485.0
+Grid     : Message    : 341529 ms : Average mflops/s per call (full)         : 1752205.5
+Grid     : Message    : 341529 ms : Average mflops/s per call per rank (full): 109512.8
+Grid     : Message    : 341529 ms : Average mflops/s per call per node (full): 109512.8
+Grid     : Message    : 341529 ms : WilsonFermion5D Stencil
+Grid     : Message    : 341529 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 341529 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 341529 ms :  Stencil calls 1000.0
+Grid     : Message    : 341529 ms :  Stencil halogtime 266.7
+Grid     : Message    : 341529 ms :  Stencil gathertime 256.2
+Grid     : Message    : 341529 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 341529 ms :  Stencil mergetime 0.0
+Grid     : Message    : 341529 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 341529 ms :  Stencil comms_bytes 10616832.0
+Grid     : Message    : 341529 ms :  Stencil commtime 1491.0
+Grid     : Message    : 341529 ms :  Stencil 7.1 GB/s per rank
+Grid     : Message    : 341529 ms :  Stencil 7.1 GB/s per node
+Grid     : Message    : 341529 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 341529 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 341529 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 341529 ms :  Stencil splicetime 0.0
+Grid     : Message    : 341529 ms :  Stencil nosplicetime 264.2
+Grid     : Message    : 341529 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 341529 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 341529 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 341529 ms :  timer0 (HaloGatherOpt) 272.4
+Grid     : Message    : 341529 ms : ==================================================================================
+Grid     : Message    : 341529 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 341530 ms : * Using sequential comms compute
+Grid     : Message    : 341530 ms : * SINGLE precision 
+Grid     : Message    : 341530 ms : ==================================================================================
+Grid     : Message    : 345116 ms : sDeo mflop/s =   1094153.2 (2031.0) 606676.1-1174985.4
+Grid     : Message    : 345116 ms : sDeo mflop/s per rank   68384.6
+Grid     : Message    : 345116 ms : sDeo mflop/s per node   68384.6
+Grid     : Message    : 345116 ms : #### Dhop calls report 
+Grid     : Message    : 345116 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 345116 ms : WilsonFermion5D TotalTime   /Calls        : 3259.8 us
+Grid     : Message    : 345117 ms : WilsonFermion5D CommTime    /Calls        : 1717.9 us
+Grid     : Message    : 345117 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 345117 ms : WilsonFermion5D ComputeTime1/Calls        : 1541.3 us
+Grid     : Message    : 345117 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 345117 ms : Average mflops/s per call                : 2334332.4
+Grid     : Message    : 345117 ms : Average mflops/s per call per rank       : 145895.8
+Grid     : Message    : 345117 ms : Average mflops/s per call per node       : 145895.8
+Grid     : Message    : 345117 ms : Average mflops/s per call (full)         : 1094301.2
+Grid     : Message    : 345117 ms : Average mflops/s per call per rank (full): 68393.8
+Grid     : Message    : 345117 ms : Average mflops/s per call per node (full): 68393.8
+Grid     : Message    : 345117 ms : WilsonFermion5D Stencil
+Grid     : Message    : 345117 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 345117 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 345117 ms :  Stencil calls 1000.0
+Grid     : Message    : 345117 ms :  Stencil halogtime 199.6
+Grid     : Message    : 345117 ms :  Stencil gathertime 189.6
+Grid     : Message    : 345117 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 345117 ms :  Stencil mergetime 0.0
+Grid     : Message    : 345117 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 345117 ms :  Stencil comms_bytes 10616832.0
+Grid     : Message    : 345117 ms :  Stencil commtime 1526.4
+Grid     : Message    : 345117 ms :  Stencil 7.0 GB/s per rank
+Grid     : Message    : 345117 ms :  Stencil 7.0 GB/s per node
+Grid     : Message    : 345117 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 345117 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 345117 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 345117 ms :  Stencil splicetime 0.0
+Grid     : Message    : 345117 ms :  Stencil nosplicetime 197.2
+Grid     : Message    : 345117 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 345117 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 345117 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 345117 ms :  timer0 (HaloGatherOpt) 196.5
+Grid     : Message    : 345117 ms :  timer1 (Communicate)   1520.7
+Grid     : Message    : 345117 ms :  timer2 (CommsMerge )   0.1
+Grid     : Message    : 345117 ms :  timer3 (commsMergeShm) 0.3
+Grid     : Message    : 345117 ms : ==================================================================================
+Grid     : Message    : 345117 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 345117 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 345117 ms : * SINGLE precision 
+Grid     : Message    : 345117 ms : ==================================================================================
+Grid     : Message    : 347731 ms : sDeo mflop/s =   1501609.1 (1387.2) 1110948.5-1579829.7
+Grid     : Message    : 347731 ms : sDeo mflop/s per rank   93850.6
+Grid     : Message    : 347731 ms : sDeo mflop/s per node   93850.6
+Grid     : Message    : 347731 ms : #### Dhop calls report 
+Grid     : Message    : 347731 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 347731 ms : WilsonFermion5D TotalTime   /Calls        : 2375.4 us
+Grid     : Message    : 347731 ms : WilsonFermion5D CommTime    /Calls        : 1794.2 us
+Grid     : Message    : 347731 ms : WilsonFermion5D FaceTime    /Calls        : 273.4 us
+Grid     : Message    : 347731 ms : WilsonFermion5D ComputeTime1/Calls        : 1696.0 us
+Grid     : Message    : 347731 ms : WilsonFermion5D ComputeTime2/Calls        : 298.1 us
+Grid     : Message    : 347731 ms : Average mflops/s per call                : 2102543.1
+Grid     : Message    : 347731 ms : Average mflops/s per call per rank       : 131408.9
+Grid     : Message    : 347731 ms : Average mflops/s per call per node       : 131408.9
+Grid     : Message    : 347731 ms : Average mflops/s per call (full)         : 1501761.4
+Grid     : Message    : 347731 ms : Average mflops/s per call per rank (full): 93860.1
+Grid     : Message    : 347731 ms : Average mflops/s per call per node (full): 93860.1
+Grid     : Message    : 347731 ms : WilsonFermion5D Stencil
+Grid     : Message    : 347731 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 347731 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 347731 ms :  Stencil calls 1000.0
+Grid     : Message    : 347731 ms :  Stencil halogtime 271.9
+Grid     : Message    : 347731 ms :  Stencil gathertime 261.0
+Grid     : Message    : 347731 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 347731 ms :  Stencil mergetime 0.0
+Grid     : Message    : 347732 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 347732 ms :  Stencil comms_bytes 10616832.0
+Grid     : Message    : 347732 ms :  Stencil commtime 1781.8
+Grid     : Message    : 347732 ms :  Stencil 6.0 GB/s per rank
+Grid     : Message    : 347732 ms :  Stencil 6.0 GB/s per node
+Grid     : Message    : 347732 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 347732 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 347732 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 347732 ms :  Stencil splicetime 0.0
+Grid     : Message    : 347732 ms :  Stencil nosplicetime 269.1
+Grid     : Message    : 347732 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 347732 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 347732 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 347732 ms :  timer0 (HaloGatherOpt) 272.9
+Grid     : Message    : 347732 ms : ==================================================================================
+Grid     : Message    : 347732 ms : 12^4 x 16 sDeo Best  mflop/s        =   1751973.1 ; 109498.3 per node 
+Grid     : Message    : 347732 ms : 12^4 x 16 sDeo Worst mflop/s        =   1094153.2 ; 68384.6 per node 
+Grid     : Message    : 347732 ms : 12^4 x 16 Performance Robustness   =   0.625
+Grid     : Message    : 347732 ms : U/S ; U/O ; G/S ; G/O 
+Grid     : Message    : 347732 ms : 81469.755 ; 109498.320 ; 68384.573 ; 93850.567 ; 
+Grid     : Message    : 347732 ms : ==================================================================================
+Grid     : Message    : 347759 ms : ==================================================================================
+Grid     : Message    : 347759 ms : Benchmark DWF Ls vec on 16^4 local volume 
+Grid     : Message    : 347759 ms : * Global volume  : 32 32 32 32 
+Grid     : Message    : 347759 ms : * Ls             : 16
+Grid     : Message    : 347759 ms : * MPI ranks      : 2 2 2 2 
+Grid     : Message    : 347759 ms : * Intranode      : 1 1 1 1 
+Grid     : Message    : 347759 ms : * nodes          : 2 2 2 2 
+Grid     : Message    : 347759 ms : * Using 12 threads
+Grid     : Message    : 347759 ms : ==================================================================================
+Grid     : Message    : 353856 ms : Initialised RNGs
+Grid     : Message    : 354527 ms : ==================================================================================
+Grid     : Message    : 354527 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 354527 ms : * Using sequential comms compute
+Grid     : Message    : 354527 ms : * SINGLE precision 
+Grid     : Message    : 354527 ms : ==================================================================================
+Grid     : Message    : 363862 ms : sDeo mflop/s =   1330723.4 (1927.6) 963285.1-1455498.2
+Grid     : Message    : 363862 ms : sDeo mflop/s per rank   83170.2
+Grid     : Message    : 363862 ms : sDeo mflop/s per node   83170.2
+Grid     : Message    : 363862 ms : #### Dhop calls report 
+Grid     : Message    : 363862 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 363862 ms : WilsonFermion5D TotalTime   /Calls        : 8471.8 us
+Grid     : Message    : 363862 ms : WilsonFermion5D CommTime    /Calls        : 4214.4 us
+Grid     : Message    : 363862 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 363862 ms : WilsonFermion5D ComputeTime1/Calls        : 4256.6 us
+Grid     : Message    : 363862 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 363863 ms : Average mflops/s per call                : 2653477.8
+Grid     : Message    : 363863 ms : Average mflops/s per call per rank       : 165842.4
+Grid     : Message    : 363863 ms : Average mflops/s per call per node       : 165842.4
+Grid     : Message    : 363863 ms : Average mflops/s per call (full)         : 1330794.9
+Grid     : Message    : 363863 ms : Average mflops/s per call per rank (full): 83174.7
+Grid     : Message    : 363863 ms : Average mflops/s per call per node (full): 83174.7
+Grid     : Message    : 363863 ms : WilsonFermion5D Stencil
+Grid     : Message    : 363863 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 363863 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 363863 ms :  Stencil calls 1000.0
+Grid     : Message    : 363863 ms :  Stencil halogtime 631.9
+Grid     : Message    : 363863 ms :  Stencil gathertime 618.5
+Grid     : Message    : 363863 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 363863 ms :  Stencil mergetime 0.0
+Grid     : Message    : 363863 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 363863 ms :  Stencil comms_bytes 25165824.0
+Grid     : Message    : 363863 ms :  Stencil commtime 3583.5
+Grid     : Message    : 363863 ms :  Stencil 7.0 GB/s per rank
+Grid     : Message    : 363863 ms :  Stencil 7.0 GB/s per node
+Grid     : Message    : 363863 ms :  Stencil mpi3synctime 0.2
+Grid     : Message    : 363863 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 363863 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 363863 ms :  Stencil splicetime 0.0
+Grid     : Message    : 363863 ms :  Stencil nosplicetime 628.7
+Grid     : Message    : 363863 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 363863 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 363863 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 363863 ms :  timer0 (HaloGatherOpt) 625.1
+Grid     : Message    : 363863 ms :  timer1 (Communicate)   3588.4
+Grid     : Message    : 363863 ms :  timer2 (CommsMerge )   0.1
+Grid     : Message    : 363863 ms :  timer3 (commsMergeShm) 0.5
+Grid     : Message    : 363863 ms : ==================================================================================
+Grid     : Message    : 363863 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 363863 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 363863 ms : * SINGLE precision 
+Grid     : Message    : 363863 ms : ==================================================================================
+Grid     : Message    : 371380 ms : sDeo mflop/s =   1650671.7 (2838.4) 1144830.3-1801580.2
+Grid     : Message    : 371380 ms : sDeo mflop/s per rank   103167.0
+Grid     : Message    : 371380 ms : sDeo mflop/s per node   103167.0
+Grid     : Message    : 371380 ms : #### Dhop calls report 
+Grid     : Message    : 371380 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 371380 ms : WilsonFermion5D TotalTime   /Calls        : 6829.8 us
+Grid     : Message    : 371380 ms : WilsonFermion5D CommTime    /Calls        : 5271.9 us
+Grid     : Message    : 371380 ms : WilsonFermion5D FaceTime    /Calls        : 692.0 us
+Grid     : Message    : 371380 ms : WilsonFermion5D ComputeTime1/Calls        : 4751.9 us
+Grid     : Message    : 371380 ms : WilsonFermion5D ComputeTime2/Calls        : 855.7 us
+Grid     : Message    : 371380 ms : Average mflops/s per call                : 2322627.7
+Grid     : Message    : 371380 ms : Average mflops/s per call per rank       : 145164.2
+Grid     : Message    : 371380 ms : Average mflops/s per call per node       : 145164.2
+Grid     : Message    : 371380 ms : Average mflops/s per call (full)         : 1650759.0
+Grid     : Message    : 371380 ms : Average mflops/s per call per rank (full): 103172.4
+Grid     : Message    : 371380 ms : Average mflops/s per call per node (full): 103172.4
+Grid     : Message    : 371380 ms : WilsonFermion5D Stencil
+Grid     : Message    : 371380 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 371380 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 371380 ms :  Stencil calls 1000.0
+Grid     : Message    : 371380 ms :  Stencil halogtime 704.8
+Grid     : Message    : 371380 ms :  Stencil gathertime 691.1
+Grid     : Message    : 371380 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 371380 ms :  Stencil mergetime 0.0
+Grid     : Message    : 371380 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 371380 ms :  Stencil comms_bytes 25165824.0
+Grid     : Message    : 371380 ms :  Stencil commtime 5134.6
+Grid     : Message    : 371380 ms :  Stencil 4.9 GB/s per rank
+Grid     : Message    : 371380 ms :  Stencil 4.9 GB/s per node
+Grid     : Message    : 371380 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 371380 ms :  Stencil mpi3synctime_g 0.2
+Grid     : Message    : 371380 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 371380 ms :  Stencil splicetime 0.0
+Grid     : Message    : 371380 ms :  Stencil nosplicetime 701.4
+Grid     : Message    : 371380 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 371380 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 371380 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 371380 ms :  timer0 (HaloGatherOpt) 691.1
+Grid     : Message    : 371380 ms : ==================================================================================
+Grid     : Message    : 371380 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 371380 ms : * Using sequential comms compute
+Grid     : Message    : 371380 ms : * SINGLE precision 
+Grid     : Message    : 371380 ms : ==================================================================================
+Grid     : Message    : 382116 ms : sDeo mflop/s =   1155208.9 (1285.8) 958535.0-1262942.7
+Grid     : Message    : 382116 ms : sDeo mflop/s per rank   72200.6
+Grid     : Message    : 382116 ms : sDeo mflop/s per node   72200.6
+Grid     : Message    : 382116 ms : #### Dhop calls report 
+Grid     : Message    : 382116 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 382116 ms : WilsonFermion5D TotalTime   /Calls        : 9759.1 us
+Grid     : Message    : 382116 ms : WilsonFermion5D CommTime    /Calls        : 4317.4 us
+Grid     : Message    : 382117 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 382117 ms : WilsonFermion5D ComputeTime1/Calls        : 5441.0 us
+Grid     : Message    : 382117 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 382117 ms : Average mflops/s per call                : 2099008.7
+Grid     : Message    : 382117 ms : Average mflops/s per call per rank       : 131188.0
+Grid     : Message    : 382117 ms : Average mflops/s per call per node       : 131188.0
+Grid     : Message    : 382117 ms : Average mflops/s per call (full)         : 1155254.1
+Grid     : Message    : 382117 ms : Average mflops/s per call per rank (full): 72203.4
+Grid     : Message    : 382117 ms : Average mflops/s per call per node (full): 72203.4
+Grid     : Message    : 382117 ms : WilsonFermion5D Stencil
+Grid     : Message    : 382117 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 382117 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 382117 ms :  Stencil calls 1000.0
+Grid     : Message    : 382117 ms :  Stencil halogtime 631.4
+Grid     : Message    : 382117 ms :  Stencil gathertime 618.0
+Grid     : Message    : 382117 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 382117 ms :  Stencil mergetime 0.0
+Grid     : Message    : 382117 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 382117 ms :  Stencil comms_bytes 25165824.0
+Grid     : Message    : 382117 ms :  Stencil commtime 3748.5
+Grid     : Message    : 382117 ms :  Stencil 6.7 GB/s per rank
+Grid     : Message    : 382117 ms :  Stencil 6.7 GB/s per node
+Grid     : Message    : 382117 ms :  Stencil mpi3synctime 0.2
+Grid     : Message    : 382117 ms :  Stencil mpi3synctime_g 0.1
+Grid     : Message    : 382117 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 382117 ms :  Stencil splicetime 0.0
+Grid     : Message    : 382117 ms :  Stencil nosplicetime 628.2
+Grid     : Message    : 382117 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 382117 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 382117 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 382117 ms :  timer0 (HaloGatherOpt) 624.3
+Grid     : Message    : 382117 ms :  timer1 (Communicate)   3692.3
+Grid     : Message    : 382117 ms :  timer2 (CommsMerge )   0.1
+Grid     : Message    : 382117 ms :  timer3 (commsMergeShm) 0.4
+Grid     : Message    : 382117 ms : ==================================================================================
+Grid     : Message    : 382117 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 382117 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 382117 ms : * SINGLE precision 
+Grid     : Message    : 382117 ms : ==================================================================================
+Grid     : Message    : 390646 ms : sDeo mflop/s =   1454663.1 (1784.1) 1119814.2-1505848.7
+Grid     : Message    : 390646 ms : sDeo mflop/s per rank   90916.4
+Grid     : Message    : 390646 ms : sDeo mflop/s per node   90916.4
+Grid     : Message    : 390646 ms : #### Dhop calls report 
+Grid     : Message    : 390646 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 390646 ms : WilsonFermion5D TotalTime   /Calls        : 7750.1 us
+Grid     : Message    : 390646 ms : WilsonFermion5D CommTime    /Calls        : 6048.9 us
+Grid     : Message    : 390646 ms : WilsonFermion5D FaceTime    /Calls        : 691.4 us
+Grid     : Message    : 390646 ms : WilsonFermion5D ComputeTime1/Calls        : 5976.9 us
+Grid     : Message    : 390646 ms : WilsonFermion5D ComputeTime2/Calls        : 865.2 us
+Grid     : Message    : 390646 ms : Average mflops/s per call                : 1876255.2
+Grid     : Message    : 390646 ms : Average mflops/s per call per rank       : 117266.0
+Grid     : Message    : 390646 ms : Average mflops/s per call per node       : 117266.0
+Grid     : Message    : 390646 ms : Average mflops/s per call (full)         : 1454736.7
+Grid     : Message    : 390646 ms : Average mflops/s per call per rank (full): 90921.0
+Grid     : Message    : 390646 ms : Average mflops/s per call per node (full): 90921.0
+Grid     : Message    : 390646 ms : WilsonFermion5D Stencil
+Grid     : Message    : 390646 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 390646 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 390646 ms :  Stencil calls 1000.0
+Grid     : Message    : 390646 ms :  Stencil halogtime 697.9
+Grid     : Message    : 390646 ms :  Stencil gathertime 684.3
+Grid     : Message    : 390646 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 390646 ms :  Stencil mergetime 0.0
+Grid     : Message    : 390646 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 390646 ms :  Stencil comms_bytes 25165824.0
+Grid     : Message    : 390646 ms :  Stencil commtime 5443.8
+Grid     : Message    : 390646 ms :  Stencil 4.6 GB/s per rank
+Grid     : Message    : 390646 ms :  Stencil 4.6 GB/s per node
+Grid     : Message    : 390646 ms :  Stencil mpi3synctime 0.1
+Grid     : Message    : 390646 ms :  Stencil mpi3synctime_g 0.2
+Grid     : Message    : 390646 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 390646 ms :  Stencil splicetime 0.0
+Grid     : Message    : 390646 ms :  Stencil nosplicetime 694.5
+Grid     : Message    : 390646 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 390646 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 390646 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 390646 ms :  timer0 (HaloGatherOpt) 690.5
+Grid     : Message    : 390646 ms : ==================================================================================
+Grid     : Message    : 390646 ms : 16^4 x 16 sDeo Best  mflop/s        =   1650671.7 ; 103167.0 per node 
+Grid     : Message    : 390646 ms : 16^4 x 16 sDeo Worst mflop/s        =   1155208.9 ; 72200.6 per node 
+Grid     : Message    : 390646 ms : 16^4 x 16 Performance Robustness   =   0.700
+Grid     : Message    : 390646 ms : U/S ; U/O ; G/S ; G/O 
+Grid     : Message    : 390646 ms : 83170.212 ; 103166.982 ; 72200.557 ; 90916.443 ; 
+Grid     : Message    : 390646 ms : ==================================================================================
+Grid     : Message    : 390733 ms : ==================================================================================
+Grid     : Message    : 390733 ms : Benchmark DWF Ls vec on 24^4 local volume 
+Grid     : Message    : 390733 ms : * Global volume  : 48 48 48 48 
+Grid     : Message    : 390733 ms : * Ls             : 16
+Grid     : Message    : 390733 ms : * MPI ranks      : 2 2 2 2 
+Grid     : Message    : 390733 ms : * Intranode      : 1 1 1 1 
+Grid     : Message    : 390733 ms : * nodes          : 2 2 2 2 
+Grid     : Message    : 390733 ms : * Using 12 threads
+Grid     : Message    : 390733 ms : ==================================================================================
+Grid     : Message    : 421629 ms : Initialised RNGs
+Grid     : Message    : 426161 ms : ==================================================================================
+Grid     : Message    : 426161 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 426161 ms : * Using sequential comms compute
+Grid     : Message    : 426161 ms : * SINGLE precision 
+Grid     : Message    : 426161 ms : ==================================================================================
+Grid     : Message    : 476662 ms : sDeo mflop/s =   1242376.2 (1190.6) 959004.1-1319892.0
+Grid     : Message    : 476662 ms : sDeo mflop/s per rank   77648.5
+Grid     : Message    : 476662 ms : sDeo mflop/s per node   77648.5
+Grid     : Message    : 476662 ms : #### Dhop calls report 
+Grid     : Message    : 476662 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 476662 ms : WilsonFermion5D TotalTime   /Calls        : 45940.6 us
+Grid     : Message    : 476662 ms : WilsonFermion5D CommTime    /Calls        : 24840.6 us
+Grid     : Message    : 476662 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 476662 ms : WilsonFermion5D ComputeTime1/Calls        : 21098.9 us
+Grid     : Message    : 476662 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 476662 ms : Average mflops/s per call                : 2729545.9
+Grid     : Message    : 476662 ms : Average mflops/s per call per rank       : 170596.6
+Grid     : Message    : 476662 ms : Average mflops/s per call per node       : 170596.6
+Grid     : Message    : 476662 ms : Average mflops/s per call (full)         : 1242388.8
+Grid     : Message    : 476662 ms : Average mflops/s per call per rank (full): 77649.3
+Grid     : Message    : 476662 ms : Average mflops/s per call per node (full): 77649.3
+Grid     : Message    : 476662 ms : WilsonFermion5D Stencil
+Grid     : Message    : 476662 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 476662 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 476662 ms :  Stencil calls 1000.0
+Grid     : Message    : 476662 ms :  Stencil halogtime 2312.4
+Grid     : Message    : 476662 ms :  Stencil gathertime 2292.8
+Grid     : Message    : 476662 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 476662 ms :  Stencil mergetime 0.0
+Grid     : Message    : 476662 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 476662 ms :  Stencil comms_bytes 84934656.0
+Grid     : Message    : 476662 ms :  Stencil commtime 22693.9
+Grid     : Message    : 476662 ms :  Stencil 3.7 GB/s per rank
+Grid     : Message    : 476662 ms :  Stencil 3.7 GB/s per node
+Grid     : Message    : 476662 ms :  Stencil mpi3synctime 0.2
+Grid     : Message    : 476662 ms :  Stencil mpi3synctime_g 0.2
+Grid     : Message    : 476662 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 476662 ms :  Stencil splicetime 0.0
+Grid     : Message    : 476663 ms :  Stencil nosplicetime 2307.6
+Grid     : Message    : 476663 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 476663 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 476663 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 476663 ms :  timer0 (HaloGatherOpt) 2323.7
+Grid     : Message    : 476663 ms :  timer1 (Communicate)   22516.2
+Grid     : Message    : 476663 ms :  timer2 (CommsMerge )   0.1
+Grid     : Message    : 476663 ms :  timer3 (commsMergeShm) 0.4
+Grid     : Message    : 476663 ms : ==================================================================================
+Grid     : Message    : 476663 ms : * Using Nc=3       WilsonKernels
+Grid     : Message    : 476663 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 476663 ms : * SINGLE precision 
+Grid     : Message    : 476663 ms : ==================================================================================
+Grid     : Message    : 511537 ms : sDeo mflop/s =   1800366.5 (1202.7) 1379382.5-1935570.0
+Grid     : Message    : 511537 ms : sDeo mflop/s per rank   112522.9
+Grid     : Message    : 511537 ms : sDeo mflop/s per node   112522.9
+Grid     : Message    : 511537 ms : #### Dhop calls report 
+Grid     : Message    : 511537 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 511537 ms : WilsonFermion5D TotalTime   /Calls        : 31702.0 us
+Grid     : Message    : 511537 ms : WilsonFermion5D CommTime    /Calls        : 26101.5 us
+Grid     : Message    : 511537 ms : WilsonFermion5D FaceTime    /Calls        : 2465.4 us
+Grid     : Message    : 511537 ms : WilsonFermion5D ComputeTime1/Calls        : 23904.6 us
+Grid     : Message    : 511537 ms : WilsonFermion5D ComputeTime2/Calls        : 3126.2 us
+Grid     : Message    : 511537 ms : Average mflops/s per call                : 2347889.2
+Grid     : Message    : 511537 ms : Average mflops/s per call per rank       : 146743.1
+Grid     : Message    : 511537 ms : Average mflops/s per call per node       : 146743.1
+Grid     : Message    : 511537 ms : Average mflops/s per call (full)         : 1800393.0
+Grid     : Message    : 511537 ms : Average mflops/s per call per rank (full): 112524.6
+Grid     : Message    : 511537 ms : Average mflops/s per call per node (full): 112524.6
+Grid     : Message    : 511537 ms : WilsonFermion5D Stencil
+Grid     : Message    : 511537 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 511537 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 511537 ms :  Stencil calls 1000.0
+Grid     : Message    : 511537 ms :  Stencil halogtime 2445.5
+Grid     : Message    : 511537 ms :  Stencil gathertime 2426.3
+Grid     : Message    : 511537 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 511537 ms :  Stencil mergetime 0.0
+Grid     : Message    : 511537 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 511537 ms :  Stencil comms_bytes 84934656.0
+Grid     : Message    : 511537 ms :  Stencil commtime 26101.2
+Grid     : Message    : 511537 ms :  Stencil 3.3 GB/s per rank
+Grid     : Message    : 511537 ms :  Stencil 3.3 GB/s per node
+Grid     : Message    : 511537 ms :  Stencil mpi3synctime 0.2
+Grid     : Message    : 511537 ms :  Stencil mpi3synctime_g 0.2
+Grid     : Message    : 511537 ms :  Stencil shmmergetime 0.2
+Grid     : Message    : 511537 ms :  Stencil splicetime 0.0
+Grid     : Message    : 511537 ms :  Stencil nosplicetime 2440.5
+Grid     : Message    : 511537 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 511537 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 511537 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 511537 ms :  timer0 (HaloGatherOpt) 2464.4
+Grid     : Message    : 511538 ms : ==================================================================================
+Grid     : Message    : 511538 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 511538 ms : * Using sequential comms compute
+Grid     : Message    : 511538 ms : * SINGLE precision 
+Grid     : Message    : 511538 ms : ==================================================================================
+Grid     : Message    : 567717 ms : sDeo mflop/s =   1116836.6 (993.5) 942487.3-1185011.7
+Grid     : Message    : 567718 ms : sDeo mflop/s per rank   69802.3
+Grid     : Message    : 567718 ms : sDeo mflop/s per node   69802.3
+Grid     : Message    : 567718 ms : #### Dhop calls report 
+Grid     : Message    : 567718 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 567718 ms : WilsonFermion5D TotalTime   /Calls        : 51104.7 us
+Grid     : Message    : 567718 ms : WilsonFermion5D CommTime    /Calls        : 25378.2 us
+Grid     : Message    : 567718 ms : WilsonFermion5D FaceTime    /Calls        : 0.0 us
+Grid     : Message    : 567718 ms : WilsonFermion5D ComputeTime1/Calls        : 25725.4 us
+Grid     : Message    : 567718 ms : WilsonFermion5D ComputeTime2/Calls        : 0.0 us
+Grid     : Message    : 567718 ms : Average mflops/s per call                : 2237808.3
+Grid     : Message    : 567718 ms : Average mflops/s per call per rank       : 139863.0
+Grid     : Message    : 567718 ms : Average mflops/s per call per node       : 139863.0
+Grid     : Message    : 567718 ms : Average mflops/s per call (full)         : 1116846.8
+Grid     : Message    : 567718 ms : Average mflops/s per call per rank (full): 69802.9
+Grid     : Message    : 567718 ms : Average mflops/s per call per node (full): 69802.9
+Grid     : Message    : 567718 ms : WilsonFermion5D Stencil
+Grid     : Message    : 567718 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 567718 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 567718 ms :  Stencil calls 1000.0
+Grid     : Message    : 567718 ms :  Stencil halogtime 2317.9
+Grid     : Message    : 567718 ms :  Stencil gathertime 2298.5
+Grid     : Message    : 567718 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 567718 ms :  Stencil mergetime 0.0
+Grid     : Message    : 567718 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 567718 ms :  Stencil comms_bytes 84934656.0
+Grid     : Message    : 567718 ms :  Stencil commtime 23257.9
+Grid     : Message    : 567718 ms :  Stencil 3.7 GB/s per rank
+Grid     : Message    : 567718 ms :  Stencil 3.7 GB/s per node
+Grid     : Message    : 567718 ms :  Stencil mpi3synctime 0.2
+Grid     : Message    : 567718 ms :  Stencil mpi3synctime_g 0.2
+Grid     : Message    : 567718 ms :  Stencil shmmergetime 0.1
+Grid     : Message    : 567718 ms :  Stencil splicetime 0.0
+Grid     : Message    : 567718 ms :  Stencil nosplicetime 2313.1
+Grid     : Message    : 567718 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 567718 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 567718 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 567718 ms :  timer0 (HaloGatherOpt) 2324.1
+Grid     : Message    : 567718 ms :  timer1 (Communicate)   23053.3
+Grid     : Message    : 567718 ms :  timer2 (CommsMerge )   0.1
+Grid     : Message    : 567718 ms :  timer3 (commsMergeShm) 0.4
+Grid     : Message    : 567718 ms : ==================================================================================
+Grid     : Message    : 567718 ms : * Using GENERIC Nc WilsonKernels
+Grid     : Message    : 567718 ms : * Using Overlapped Comms/Compute
+Grid     : Message    : 567718 ms : * SINGLE precision 
+Grid     : Message    : 567718 ms : ==================================================================================
+Grid     : Message    : 606793 ms : sDeo mflop/s =   1605381.2 (1070.7) 1314511.5-1668745.1
+Grid     : Message    : 606793 ms : sDeo mflop/s per rank   100336.3
+Grid     : Message    : 606793 ms : sDeo mflop/s per node   100336.3
+Grid     : Message    : 606793 ms : #### Dhop calls report 
+Grid     : Message    : 606793 ms : WilsonFermion5D Number of DhopEO Calls   : 1000.0
+Grid     : Message    : 606793 ms : WilsonFermion5D TotalTime   /Calls        : 35552.6 us
+Grid     : Message    : 606793 ms : WilsonFermion5D CommTime    /Calls        : 29833.6 us
+Grid     : Message    : 606793 ms : WilsonFermion5D FaceTime    /Calls        : 2460.2 us
+Grid     : Message    : 606793 ms : WilsonFermion5D ComputeTime1/Calls        : 28747.8 us
+Grid     : Message    : 606793 ms : WilsonFermion5D ComputeTime2/Calls        : 3156.5 us
+Grid     : Message    : 606793 ms : Average mflops/s per call                : 1973303.2
+Grid     : Message    : 606793 ms : Average mflops/s per call per rank       : 123331.4
+Grid     : Message    : 606793 ms : Average mflops/s per call per node       : 123331.4
+Grid     : Message    : 606793 ms : Average mflops/s per call (full)         : 1605399.9
+Grid     : Message    : 606793 ms : Average mflops/s per call per rank (full): 100337.5
+Grid     : Message    : 606793 ms : Average mflops/s per call per node (full): 100337.5
+Grid     : Message    : 606793 ms : WilsonFermion5D Stencil
+Grid     : Message    : 606793 ms : WilsonFermion5D StencilEven
+Grid     : Message    : 606793 ms : WilsonFermion5D StencilOdd
+Grid     : Message    : 606793 ms :  Stencil calls 1000.0
+Grid     : Message    : 606793 ms :  Stencil halogtime 2454.1
+Grid     : Message    : 606793 ms :  Stencil gathertime 2434.5
+Grid     : Message    : 606793 ms :  Stencil gathermtime 0.0
+Grid     : Message    : 606793 ms :  Stencil mergetime 0.0
+Grid     : Message    : 606793 ms :  Stencil decompresstime 0.0
+Grid     : Message    : 606793 ms :  Stencil comms_bytes 84934656.0
+Grid     : Message    : 606793 ms :  Stencil commtime 29494.3
+Grid     : Message    : 606793 ms :  Stencil 2.9 GB/s per rank
+Grid     : Message    : 606793 ms :  Stencil 2.9 GB/s per node
+Grid     : Message    : 606793 ms :  Stencil mpi3synctime 0.2
+Grid     : Message    : 606793 ms :  Stencil mpi3synctime_g 0.2
+Grid     : Message    : 606793 ms :  Stencil shmmergetime 0.2
+Grid     : Message    : 606793 ms :  Stencil splicetime 0.0
+Grid     : Message    : 606793 ms :  Stencil nosplicetime 2449.0
+Grid     : Message    : 606793 ms : WilsonFermion5D Stencil     Reporti()
+Grid     : Message    : 606793 ms : WilsonFermion5D StencilEven Reporti()
+Grid     : Message    : 606793 ms : WilsonFermion5D StencilOdd  Reporti()
+Grid     : Message    : 606793 ms :  timer0 (HaloGatherOpt) 2459.2
+Grid     : Message    : 606793 ms : ==================================================================================
+Grid     : Message    : 606793 ms : 24^4 x 16 sDeo Best  mflop/s        =   1800366.5 ; 112522.9 per node 
+Grid     : Message    : 606793 ms : 24^4 x 16 sDeo Worst mflop/s        =   1116836.6 ; 69802.3 per node 
+Grid     : Message    : 606793 ms : 24^4 x 16 Performance Robustness   =   0.620
+Grid     : Message    : 606793 ms : U/S ; U/O ; G/S ; G/O 
+Grid     : Message    : 606793 ms : 77648.513 ; 112522.904 ; 69802.286 ; 100336.325 ; 
+Grid     : Message    : 606793 ms : ==================================================================================
+Grid     : Message    : 607230 ms : ==================================================================================
+Grid     : Message    : 607230 ms :  Summary table Ls=16
+Grid     : Message    : 607230 ms : ==================================================================================
+Grid     : Message    : 607230 ms : L 		 Wilson 	 DWF4 	 DWF5 
+Grid     : Message    : 607230 ms : 8 		 300173.069 	 1092134.619 	 1211611.696
+Grid     : Message    : 607230 ms : 12 		 845084.117 	 1438531.308 	 1751973.126
+Grid     : Message    : 607230 ms : 16 		 1419703.931 	 1443553.210 	 1650671.709
+Grid     : Message    : 607230 ms : 24 		 1330675.736 	 1746957.073 	 1800366.458
+Grid     : Message    : 607230 ms : ==================================================================================
+Grid     : Message    : 607230 ms : ==================================================================================
+Grid     : Message    : 607230 ms :  Memory benchmark 
+Grid     : Message    : 607230 ms : ==================================================================================
+Grid     : Message    : 607230 ms : ==================================================================================
+Grid     : Message    : 607230 ms : = Benchmarking a*x + y bandwidth
+Grid     : Message    : 607230 ms : ==================================================================================
+Grid     : Message    : 607230 ms :   L  		bytes			GB/s		Gflop/s		 seconds		GB/s / node
+Grid     : Message    : 607230 ms : ----------------------------------------------------------
+Grid     : Message    : 608034 ms : 8		6291456.000   		1014.954		169.159		0.803		63.435
+Grid     : Message    : 608514 ms : 12		31850496.000   		1945.300		324.217		0.419		121.581
+Grid     : Message    : 609041 ms : 16		100663296.000   		2327.714		387.952		0.350		145.482
+Grid     : Message    : 609574 ms : 20		245760000.000   		2467.240		411.207		0.330		154.202
+Grid     : Message    : 610255 ms : 24		509607936.000   		1725.215		287.536		0.473		107.826
+Grid     : Message    : 610934 ms : 28		944111616.000   		1419.232		236.539		0.574		88.702
+Grid     : Message    : 611575 ms : 32		1610612736.000   		1310.174		218.362		0.622		81.886
+Grid     : Message    : 612251 ms : 36		2579890176.000   		1269.121		211.520		0.642		79.320
+Grid     : Message    : 612960 ms : 40		3932160000.000   		1236.716		206.119		0.658		77.295
+Grid     : Message    : 613720 ms : 44		5757075456.000   		1202.076		200.346		0.675		75.130
+Grid     : Message    : 614513 ms : 48		8153726976.000   		1210.440		201.740		0.674		75.652
+Grid     : Message    : 614514 ms : ==================================================================================
+Grid     : Message    : 614514 ms :  Communications benchmark 
+Grid     : Message    : 614514 ms : ==================================================================================
+Grid     : Message    : 614514 ms : ====================================================================================================
+Grid     : Message    : 614514 ms : = Benchmarking threaded STENCIL halo exchange in 4 dimensions
+Grid     : Message    : 614514 ms : ====================================================================================================
+Grid     : Message    : 614514 ms :  L  	 Ls  	bytes      MB/s uni (err/min/max)		MB/s bidi (err/min/max)
+Grid     : Message    : 614588 ms : 4   	8	49152       1075.8  11.9 439.8 1429.9		 2151.6  23.7 879.7 2859.8
+Grid     : Message    : 614726 ms : 8   	8	393216      4588.2  50.3 1516.7 5225.5		 9176.4  100.6 3033.5 10450.9
+Grid     : Message    : 615159 ms : 12  	8	1327104     4933.5  40.2 2010.4 5541.1		 9866.9  80.4 4020.8 11082.3
+Grid     : Message    : 616735 ms : 16  	8	3145728     3203.8  32.7 2236.4 4523.0		 6407.6  65.5 4472.7 9045.9
+Grid     : Message    : 620633 ms : 20  	8	6144000     2528.7  12.2 2011.1 2982.9		 5057.5  24.4 4022.3 5965.8
+Grid     : Message    : 627969 ms : 24  	8	10616832    2321.2  10.0 1968.1 2778.4		 4642.3  20.1 3936.2 5556.7
+Grid     : Message    : 639682 ms : 28  	8	16859136    2308.7  10.4 1925.0 2610.8		 4617.5  20.7 3849.9 5221.7
+Grid     : Message    : 657116 ms : 32  	8	25165824    2315.2  9.1 1962.0 2587.6		 4630.4  18.2 3924.0 5175.3
+Grid     : Message    : 657116 ms : ==================================================================================
+Grid     : Message    : 657116 ms :  Per Node Summary table Ls=16
+Grid     : Message    : 657116 ms : ==================================================================================
+Grid     : Message    : 657116 ms :  L 		 Wilson		 DWF4  		 DWF5 
+Grid     : Message    : 657116 ms : 8 		 18760.8 	 68258.4 	 75725.7
+Grid     : Message    : 657116 ms : 12 		 52817.8 	 89908.2 	 109498.3
+Grid     : Message    : 657116 ms : 16 		 88731.5 	 90222.1 	 103167.0
+Grid     : Message    : 657116 ms : 24 		 83167.2 	 109184.8 	 112522.9
+Grid     : Message    : 657116 ms : ==================================================================================
+Grid     : Message    : 657116 ms : ==================================================================================
+Grid     : Message    : 657116 ms :  Comparison point     result: 90222.1 Mflop/s per node
+Grid     : Message    : 657116 ms :  Comparison point robustness: 0.867
+Grid     : Message    : 657116 ms : ==================================================================================
