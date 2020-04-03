@@ -68,6 +68,7 @@ tar xvzf openssl-1.1.0l.tar.gz
 cd openssl-1.1.0l
 ./config --prefix=$prefix
 make all install
+```
 
 # Build Grid benchmark
 
