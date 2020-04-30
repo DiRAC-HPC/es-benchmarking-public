@@ -1,0 +1,43 @@
+#!/bin/bash --login
+
+# PBS job options (name, compute nodes, job time)
+#PBS -N Grid_ITT
+#PBS -l select=16
+#PBS -l walltime=6:0:0
+#PBS -l place=scatter
+
+# Replace [budget code] below with your project code (e.g. t01)
+#PBS -A z01
+
+# Change to the directory that the job was submitted from
+cd $PBS_O_WORKDIR
+
+# Load any required modules
+module load intel-mpi-18
+module load gcc
+
+grid=/home/z01/z01/dc-turn1/benchmark/GridBench/prefix-cpu
+prefix=/home/z01/z01/dc-turn1/benchmark/GridBench/prefix
+hdf5dir=/tessfs1/home/dp008/dp008/paboyle/Modules/hdf5/install
+
+export LD_LIBRARY_PATH=$prefix/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$hdf5dir/lib:$LD_LIBRARY_PATH
+
+# Set the number of threads to 1
+#   This prevents any threaded system libraries from automatically
+#   using threading.
+export OMP_NUM_THREADS=12
+export I_MPI_PIN=1
+export KMP_HW_SUBSET=24c,1t 
+
+nodes=8
+# mpi must multiply to the number of mpi ranks
+mpi="2.2.2.2"
+rankpernode=2
+totrank=$(( nodes * rankpernode ))
+timestamp=$(date '+%Y%m%d%H%M')
+
+# Launch the parallel job
+#   Using 1536 MPI processes and 24 MPI processes per node
+mpirun -n ${totrank} -ppn ${rankpernode} -f ${PBS_NODEFILE} ./omp_bind.sh $grid/bin/Benchmark_ITT --mpi ${mpi} --shm 1024 > grid_itt_bench_${nodes}nodes_${timestamp}.out
+
