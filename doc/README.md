@@ -8,6 +8,6 @@ The steps we used to compile the Grid benchmark on a number of systems
    
 # Grid run scripts
 
-   - [DiRAC Extreme Scaling (Tesseract)](tesseract_submit.pbs)
-   - [DiRAC Memory Intensive (COSMA7)](cosma7_submit.slurm)
+   - [DiRAC Extreme Scaling (Tesseract)](tesseract_run.pbs)
+   - [DiRAC Memory Intensive (COSMA7)](cosma7_run.slurm)
 
