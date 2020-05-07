@@ -3,9 +3,8 @@
 # Load the required modules
 
 ```
+module load intel_comp/2018
 module load intel_mpi/2018
-module load intel_comp/2019-update4 
-module load gnu_comp
 module load parallel_hdf5
 ```
 
@@ -17,7 +16,8 @@ It is easiest to copy these commands to a script and then execute it:
 ####################################
 # Dependency install directory
 ####################################
-export prefix=/cosma/home/dr002/auser/benchmark/GridBench/prefix
+export prefix=$HOME/benchmark/GridBench/prefix
+rm -rf $prefix
 mkdir -p $prefix
 
 ##################
@@ -81,11 +81,12 @@ It is easiest to copy these commands to a script and then execute it:
 ####################################
 # Grid directory and support directory
 ####################################
-prefix=/cosma/home/dr002/auser/benchmark/GridBench/prefix
-grid=/cosma/home/dr002/auser/benchmark/GridBench/GridCompile
+prefix=$HOME/benchmark/GridBench/prefix
+grid=$HOME/benchmark/GridBench/GridCompile
 mkdir -p $grid
 
 cd $grid
+rm -rf Grid
 git clone https://paboyle@github.com/paboyle/Grid
 cd Grid
 git checkout release/dirac-ITT
@@ -94,17 +95,12 @@ git checkout release/dirac-ITT
 #########################
 # build for CPU
 #########################
+rm -rf build-cpu
 mkdir build-cpu
 cd build-cpu
 
+../configure --enable-mkl --enable-comms=mpi-auto --enable-precision=single --enable-simd=AVX2 --prefix=${prefix}-cpu CXX=g++ MPICXX=mpiicpc LDFLAGS="-L${prefix}/lib/" CXXFLAGS="-I${prefix}/include/" --with-fftw=${prefix} --with-lime=${prefix} --with-gmp=${prefix} --with-mpfr=${prefix}
 
-../configure --enable-comms=mpi-auto     \
-             --enable-simd=AVX2          \
-             --prefix /cosma/home/dr002/auser/benchmark/GridBench/prefix-cpu   \
-             CXX=g++                     \
-             MPICXX=mpiicpc              \
-             LDFLAGS="-L$prefix/lib/ "\
-             CXXFLAGS="-I$prefix/include/ -std=c++11 -fpermissive"
 make -j 24
 make install
 ```
