@@ -34,7 +34,24 @@ The build process for each of the systems we have run on can be found in the [do
 
 Information on running the DiRAC Grid benchamrk can be found at:
 
-  - https://github.com/paboyle/Grid/wiki/Dirac-ITT-Benchmarks
+   - https://github.com/paboyle/Grid/wiki/Dirac-ITT-Benchmarks
+
+Note that the MPI task distribution across problem dimensions used at different node counts
+follows the following rules:
+
+   - Distribute as evenly as possible
+   - Larger numbers should be in the left-most dimension
+   
+This leads to the following distributions when using 2 MPI tasks per node (usually best
+on two-socket nodes):
+
+   - 1 node (2 MPI tasks): 2.1.1.1
+   - 2 nodes (4 MPI tasks): 2.2.1.1
+   - 4 nodes (8 MPI tasks): 2.2.2.1
+   - 8 nodes (16 MPI tasks): 2.2.2.2
+   - 16 nodes (32 MPI tasks): 4.2.2.2
+   - 32 nodes (64 MPI tasks): 4.4.2.2
+   - etc.
 
 The benchmark has been run on the following systems:
 
