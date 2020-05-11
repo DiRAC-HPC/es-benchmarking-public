@@ -32,7 +32,31 @@ export KMP_HW_SUBSET=28c,1t
 
 nodes=$(expr $SLURM_NTASKS / 2)
 # mpi must multiply to the number of mpi ranks
+#mpi="${SLURM_NTASKS}.1.1.1"
+case  $nodes in
+1)
+mpi="2.1.1.1"
+;;
+2)
+mpi="2.2.1.1"
+;;
+4)
+mpi="2.2.2.1"
+;;
+8)
+mpi="2.2.2.2"
+;;
+16)
+mpi="4.2.2.2"
+;;
+32)
+mpi="4.4.2.2"
+;;
+*)
 mpi="${SLURM_NTASKS}.1.1.1"
+;;
+esac
+echo $mpi
 shm=1024
 c=2
 thr=2
